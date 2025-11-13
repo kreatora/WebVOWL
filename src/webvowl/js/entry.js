@@ -17,6 +17,7 @@ webvowl.util.prefixTools = require("./util/prefixRepresentationModule");
 webvowl.modules = {};
 webvowl.modules.colorExternalsSwitch = require("./modules/colorExternalsSwitch");
 webvowl.modules.compactNotationSwitch = require("./modules/compactNotationSwitch");
+webvowl.modules.treeLayoutSwitch = require("./modules/treeLayoutSwitch");
 webvowl.modules.datatypeFilter = require("./modules/datatypeFilter");
 webvowl.modules.disjointFilter = require("./modules/disjointFilter");
 webvowl.modules.focuser = require("./modules/focuser");

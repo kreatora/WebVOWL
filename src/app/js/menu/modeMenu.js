@@ -37,7 +37,7 @@ module.exports = function ( graph ){
   /**
    * Connects the website with the available graph modes.
    */
-  modeMenu.setup = function ( pickAndPin, nodeScaling, compactNotation, colorExternals ){
+  modeMenu.setup = function ( pickAndPin, nodeScaling, compactNotation, colorExternals, treeLayoutSwitch ){
     var menuEntry = d3.select("#m_modes");
     menuEntry.on("mouseover", function (){
       var searchMenu = graph.options().searchMenu();
@@ -50,6 +50,8 @@ module.exports = function ( graph ){
     addModeItem(compactNotation, "compactnotation", "Compact notation", "#compactNotationOption", true);
     var container = addModeItem(colorExternals, "colorexternals", "Color externals", "#colorExternalsOption", true);
     colorModeSwitch = addExternalModeSelection(container, colorExternals);
+    // Tree layout toggle in Modes menu
+    addModeItem(treeLayoutSwitch, "treelayout", "Tree layout", "#treeLayoutOption", true);
   };
   function addCheckBoxD( identifier, modeName, selector, onChangeFunc, updateLvl ){
     var moduleOptionContainer = d3.select(selector)

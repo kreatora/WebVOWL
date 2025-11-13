@@ -1,0 +1,3680 @@
+{
+  "namespace": [
+    {
+      "name": "ex",
+      "iri": "http://example.org/ontology"
+    }
+  ],
+  "header": {
+    "languages": [
+      "en"
+    ],
+    "title": {
+      "en": "Ontology Tree"
+    },
+    "iri": "http://example.org/ontology",
+    "version": "1.0",
+    "author": [
+      "Generated"
+    ],
+    "description": {
+      "en": "Auto-converted ontology tree to VOWL-JSON"
+    }
+  },
+  "class": [
+    {
+      "id": "1",
+      "type": "owl:Class"
+    },
+    {
+      "id": "2",
+      "type": "owl:Class"
+    },
+    {
+      "id": "3",
+      "type": "owl:Class"
+    },
+    {
+      "id": "4",
+      "type": "owl:Class"
+    },
+    {
+      "id": "5",
+      "type": "owl:Class"
+    },
+    {
+      "id": "6",
+      "type": "owl:Class"
+    },
+    {
+      "id": "7",
+      "type": "owl:Class"
+    },
+    {
+      "id": "8",
+      "type": "owl:Class"
+    },
+    {
+      "id": "9",
+      "type": "owl:Class"
+    },
+    {
+      "id": "10",
+      "type": "owl:Class"
+    },
+    {
+      "id": "11",
+      "type": "owl:Class"
+    },
+    {
+      "id": "12",
+      "type": "owl:Class"
+    },
+    {
+      "id": "13",
+      "type": "owl:Class"
+    },
+    {
+      "id": "14",
+      "type": "owl:Class"
+    },
+    {
+      "id": "15",
+      "type": "owl:Class"
+    },
+    {
+      "id": "16",
+      "type": "owl:Class"
+    },
+    {
+      "id": "17",
+      "type": "owl:Class"
+    },
+    {
+      "id": "18",
+      "type": "owl:Class"
+    },
+    {
+      "id": "19",
+      "type": "owl:Class"
+    },
+    {
+      "id": "20",
+      "type": "owl:Class"
+    },
+    {
+      "id": "21",
+      "type": "owl:Class"
+    },
+    {
+      "id": "22",
+      "type": "owl:Class"
+    },
+    {
+      "id": "23",
+      "type": "owl:Class"
+    },
+    {
+      "id": "24",
+      "type": "owl:Class"
+    },
+    {
+      "id": "25",
+      "type": "owl:Class"
+    },
+    {
+      "id": "26",
+      "type": "owl:Class"
+    },
+    {
+      "id": "27",
+      "type": "owl:Class"
+    },
+    {
+      "id": "28",
+      "type": "owl:Class"
+    },
+    {
+      "id": "29",
+      "type": "owl:Class"
+    },
+    {
+      "id": "30",
+      "type": "owl:Class"
+    },
+    {
+      "id": "31",
+      "type": "owl:Class"
+    },
+    {
+      "id": "32",
+      "type": "owl:Class"
+    },
+    {
+      "id": "33",
+      "type": "owl:Class"
+    },
+    {
+      "id": "34",
+      "type": "owl:Class"
+    },
+    {
+      "id": "35",
+      "type": "owl:Class"
+    },
+    {
+      "id": "36",
+      "type": "owl:Class"
+    },
+    {
+      "id": "37",
+      "type": "owl:Class"
+    },
+    {
+      "id": "38",
+      "type": "owl:Class"
+    },
+    {
+      "id": "39",
+      "type": "owl:Class"
+    },
+    {
+      "id": "40",
+      "type": "owl:Class"
+    },
+    {
+      "id": "41",
+      "type": "owl:Class"
+    },
+    {
+      "id": "42",
+      "type": "owl:Class"
+    },
+    {
+      "id": "43",
+      "type": "owl:Class"
+    },
+    {
+      "id": "44",
+      "type": "owl:Class"
+    },
+    {
+      "id": "45",
+      "type": "owl:Class"
+    },
+    {
+      "id": "46",
+      "type": "owl:Class"
+    },
+    {
+      "id": "47",
+      "type": "owl:Class"
+    },
+    {
+      "id": "48",
+      "type": "owl:Class"
+    },
+    {
+      "id": "49",
+      "type": "owl:Class"
+    },
+    {
+      "id": "50",
+      "type": "owl:Class"
+    },
+    {
+      "id": "51",
+      "type": "owl:Class"
+    },
+    {
+      "id": "52",
+      "type": "owl:Class"
+    },
+    {
+      "id": "53",
+      "type": "owl:Class"
+    },
+    {
+      "id": "54",
+      "type": "owl:Class"
+    },
+    {
+      "id": "55",
+      "type": "owl:Class"
+    },
+    {
+      "id": "56",
+      "type": "owl:Class"
+    },
+    {
+      "id": "57",
+      "type": "owl:Class"
+    },
+    {
+      "id": "58",
+      "type": "owl:Class"
+    },
+    {
+      "id": "59",
+      "type": "owl:Class"
+    },
+    {
+      "id": "60",
+      "type": "owl:Class"
+    },
+    {
+      "id": "61",
+      "type": "owl:Class"
+    },
+    {
+      "id": "62",
+      "type": "owl:Class"
+    },
+    {
+      "id": "63",
+      "type": "owl:Class"
+    },
+    {
+      "id": "64",
+      "type": "owl:Class"
+    },
+    {
+      "id": "65",
+      "type": "owl:Class"
+    },
+    {
+      "id": "66",
+      "type": "owl:Class"
+    },
+    {
+      "id": "67",
+      "type": "owl:Class"
+    },
+    {
+      "id": "68",
+      "type": "owl:Class"
+    },
+    {
+      "id": "69",
+      "type": "owl:Class"
+    },
+    {
+      "id": "70",
+      "type": "owl:Class"
+    },
+    {
+      "id": "71",
+      "type": "owl:Class"
+    },
+    {
+      "id": "72",
+      "type": "owl:Class"
+    },
+    {
+      "id": "73",
+      "type": "owl:Class"
+    },
+    {
+      "id": "74",
+      "type": "owl:Class"
+    },
+    {
+      "id": "75",
+      "type": "owl:Class"
+    },
+    {
+      "id": "76",
+      "type": "owl:Class"
+    },
+    {
+      "id": "77",
+      "type": "owl:Class"
+    },
+    {
+      "id": "78",
+      "type": "owl:Class"
+    },
+    {
+      "id": "79",
+      "type": "owl:Class"
+    },
+    {
+      "id": "80",
+      "type": "owl:Class"
+    },
+    {
+      "id": "81",
+      "type": "owl:Class"
+    },
+    {
+      "id": "82",
+      "type": "owl:Class"
+    },
+    {
+      "id": "83",
+      "type": "owl:Class"
+    },
+    {
+      "id": "84",
+      "type": "owl:Class"
+    },
+    {
+      "id": "85",
+      "type": "owl:Class"
+    },
+    {
+      "id": "86",
+      "type": "owl:Class"
+    },
+    {
+      "id": "87",
+      "type": "owl:Class"
+    },
+    {
+      "id": "88",
+      "type": "owl:Class"
+    },
+    {
+      "id": "89",
+      "type": "owl:Class"
+    },
+    {
+      "id": "90",
+      "type": "owl:Class"
+    },
+    {
+      "id": "91",
+      "type": "owl:Class"
+    },
+    {
+      "id": "92",
+      "type": "owl:Class"
+    },
+    {
+      "id": "93",
+      "type": "owl:Class"
+    },
+    {
+      "id": "94",
+      "type": "owl:Class"
+    },
+    {
+      "id": "95",
+      "type": "owl:Class"
+    },
+    {
+      "id": "96",
+      "type": "owl:Class"
+    },
+    {
+      "id": "97",
+      "type": "owl:Class"
+    },
+    {
+      "id": "98",
+      "type": "owl:Class"
+    },
+    {
+      "id": "99",
+      "type": "owl:Class"
+    },
+    {
+      "id": "100",
+      "type": "owl:Class"
+    },
+    {
+      "id": "101",
+      "type": "owl:Class"
+    },
+    {
+      "id": "102",
+      "type": "owl:Class"
+    },
+    {
+      "id": "103",
+      "type": "owl:Class"
+    },
+    {
+      "id": "104",
+      "type": "owl:Class"
+    },
+    {
+      "id": "105",
+      "type": "owl:Class"
+    },
+    {
+      "id": "106",
+      "type": "owl:Class"
+    },
+    {
+      "id": "107",
+      "type": "owl:Class"
+    },
+    {
+      "id": "108",
+      "type": "owl:Class"
+    },
+    {
+      "id": "109",
+      "type": "owl:Class"
+    },
+    {
+      "id": "110",
+      "type": "owl:Class"
+    },
+    {
+      "id": "111",
+      "type": "owl:Class"
+    },
+    {
+      "id": "112",
+      "type": "owl:Class"
+    },
+    {
+      "id": "113",
+      "type": "owl:Class"
+    },
+    {
+      "id": "114",
+      "type": "owl:Class"
+    },
+    {
+      "id": "115",
+      "type": "owl:Class"
+    },
+    {
+      "id": "116",
+      "type": "owl:Class"
+    },
+    {
+      "id": "117",
+      "type": "owl:Class"
+    },
+    {
+      "id": "118",
+      "type": "owl:Class"
+    },
+    {
+      "id": "119",
+      "type": "owl:Class"
+    },
+    {
+      "id": "120",
+      "type": "owl:Class"
+    },
+    {
+      "id": "121",
+      "type": "owl:Class"
+    },
+    {
+      "id": "122",
+      "type": "owl:Class"
+    },
+    {
+      "id": "123",
+      "type": "owl:Class"
+    },
+    {
+      "id": "124",
+      "type": "owl:Class"
+    },
+    {
+      "id": "125",
+      "type": "owl:Class"
+    },
+    {
+      "id": "126",
+      "type": "owl:Class"
+    },
+    {
+      "id": "127",
+      "type": "owl:Class"
+    },
+    {
+      "id": "128",
+      "type": "owl:Class"
+    },
+    {
+      "id": "129",
+      "type": "owl:Class"
+    },
+    {
+      "id": "130",
+      "type": "owl:Class"
+    },
+    {
+      "id": "131",
+      "type": "owl:Class"
+    },
+    {
+      "id": "132",
+      "type": "owl:Class"
+    },
+    {
+      "id": "133",
+      "type": "owl:Class"
+    },
+    {
+      "id": "134",
+      "type": "owl:Class"
+    },
+    {
+      "id": "135",
+      "type": "owl:Class"
+    },
+    {
+      "id": "136",
+      "type": "owl:Class"
+    },
+    {
+      "id": "137",
+      "type": "owl:Class"
+    },
+    {
+      "id": "138",
+      "type": "owl:Class"
+    },
+    {
+      "id": "139",
+      "type": "owl:Class"
+    },
+    {
+      "id": "140",
+      "type": "owl:Class"
+    },
+    {
+      "id": "141",
+      "type": "owl:Class"
+    },
+    {
+      "id": "142",
+      "type": "owl:Class"
+    },
+    {
+      "id": "143",
+      "type": "owl:Class"
+    },
+    {
+      "id": "144",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "1",
+      "iri": "http://example.org/ontology#Policy",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Policy",
+        "undefined": "Policy"
+      }
+    },
+    {
+      "id": "2",
+      "iri": "http://example.org/ontology#Public_policies%3A_Public_policies_are_efforts_made_by_governments_to_alter_aspects_of_their_own_or_social_behaviour_in_order_to_carry_out_some_end_or_purpose_and_are_comprised_of_complex_arrangements_of_policy_goals_and_policy_means._(based_on_Howlett%3A_https%3A%2F%2Fwww.sfu.ca%2F~howlett%2Fdocuments%2Fchapter%25209.MH%2520copy.pdf).",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Public policies: Public policies are efforts made by governments to alter aspects of their own or social behaviour in order to carry out some end or purpose and are comprised of complex arrangements of policy goals and policy means. (based on Howlett: https://www.sfu.ca/~howlett/documents/chapter%209.MH%20copy.pdf).",
+        "undefined": "Public policies: Public policies are efforts made by governments to alter aspects of their own or social behaviour in order to carry out some end or purpose and are comprised of complex arrangements of policy goals and policy means. (based on Howlett: https://www.sfu.ca/~howlett/documents/chapter%209.MH%20copy.pdf)."
+      },
+      "superClasses": [
+        "1"
+      ]
+    },
+    {
+      "id": "3",
+      "iri": "http://example.org/ontology#Policy_goals_are_a_public_policy_wherein_governments_determine_operationalizable_policy_objectives_including_specific_policy_targets._The_aim_of_these_goals_is_to_guide_decision-making._(See_in_Howlett%3A_https%3A%2F%2Fwww.sfu.ca%2F~howlett%2Fdocuments%2Fchapter%25209.MH%2520copy.pdf)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Policy goals are a public policy wherein governments determine operationalizable policy objectives including specific policy targets. The aim of these goals is to guide decision-making. (See in Howlett: https://www.sfu.ca/~howlett/documents/chapter%209.MH%20copy.pdf)",
+        "undefined": "Policy goals are a public policy wherein governments determine operationalizable policy objectives including specific policy targets. The aim of these goals is to guide decision-making. (See in Howlett: https://www.sfu.ca/~howlett/documents/chapter%209.MH%20copy.pdf)"
+      },
+      "superClasses": [
+        "2"
+      ]
+    },
+    {
+      "id": "4",
+      "iri": "http://example.org/ontology#Target%3A_A_target_is_a_policy_goal_that_contains_statements_about_a_desired_future_state_of_a_system_that_an_organization%2Fassociation%2Fmunicipality%2Fregion%2Fcountry_commits_to_in_either_a_legally_binding_or_non-legally_binding_way_(OEO%2C_adapted)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Target: A target is a policy goal that contains statements about a desired future state of a system that an organization/association/municipality/region/country commits to in either a legally binding or non-legally binding way (OEO, adapted)",
+        "undefined": "Target: A target is a policy goal that contains statements about a desired future state of a system that an organization/association/municipality/region/country commits to in either a legally binding or non-legally binding way (OEO, adapted)"
+      },
+      "superClasses": [
+        "3",
+        "7"
+      ]
+    },
+    {
+      "id": "5",
+      "iri": "http://example.org/ontology#Binding_target%3A_A_binding_target_is_a_target_that_is_legally_enforceable._(adjusted_from_CPDB)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Binding target: A binding target is a target that is legally enforceable. (adjusted from CPDB)",
+        "undefined": "Binding target: A binding target is a target that is legally enforceable. (adjusted from CPDB)"
+      },
+      "superClasses": [
+        "4"
+      ]
+    },
+    {
+      "id": "6",
+      "iri": "http://example.org/ontology#Public_policies",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Public policies",
+        "undefined": "Public policies"
+      },
+      "superClasses": [
+        "1"
+      ]
+    },
+    {
+      "id": "7",
+      "iri": "http://example.org/ontology#Policy_goals_are_a_public_policy_wherein_governments_determine_operationalizable_policy_objectives_including_specific_policy_targets._The_aim_of_these_goals_is_to_guide_decision-making.",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Policy goals are a public policy wherein governments determine operationalizable policy objectives including specific policy targets. The aim of these goals is to guide decision-making.",
+        "undefined": "Policy goals are a public policy wherein governments determine operationalizable policy objectives including specific policy targets. The aim of these goals is to guide decision-making."
+      },
+      "superClasses": [
+        "6"
+      ]
+    },
+    {
+      "id": "8",
+      "iri": "http://example.org/ontology#Non-binding_target%3A_A_non-binding_is_a_target_that_is_not_legally_enforceable._(adjusted_from_CPDB)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Non-binding target: A non-binding is a target that is not legally enforceable. (adjusted from CPDB)",
+        "undefined": "Non-binding target: A non-binding is a target that is not legally enforceable. (adjusted from CPDB)"
+      },
+      "superClasses": [
+        "4"
+      ]
+    },
+    {
+      "id": "9",
+      "iri": "http://example.org/ontology#Economy-wide_target%3A_An_economy-wide_target_is_a_target_that_focuses_on_a_whole_country%2Feconomy-wide_(adapted_from_CPDB)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Economy-wide target: An economy-wide target is a target that focuses on a whole country/economy-wide (adapted from CPDB)",
+        "undefined": "Economy-wide target: An economy-wide target is a target that focuses on a whole country/economy-wide (adapted from CPDB)"
+      },
+      "superClasses": [
+        "4"
+      ]
+    },
+    {
+      "id": "10",
+      "iri": "http://example.org/ontology#Phase-out_target%3A_A_phase-out_target_is_a_target_that_focuses_on_phasing_out_of_a_specific_energy_technology_within_a_defined_timeframe._Examples_include_fossil_fuel%2C_nuclear_phase-out%2C_etc._(OWN_ADDITION)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Phase-out target: A phase-out target is a target that focuses on phasing out of a specific energy technology within a defined timeframe. Examples include fossil fuel, nuclear phase-out, etc. (OWN ADDITION)",
+        "undefined": "Phase-out target: A phase-out target is a target that focuses on phasing out of a specific energy technology within a defined timeframe. Examples include fossil fuel, nuclear phase-out, etc. (OWN ADDITION)"
+      },
+      "superClasses": [
+        "4"
+      ]
+    },
+    {
+      "id": "11",
+      "iri": "http://example.org/ontology#Technology_adoption_target%3A_An_adoption_target_is_a_target_that_focuses_on_the_adoption_of_a_specific_energy_technology_within_a_defined_timeframe._Examples_include_renewable_energy%2C_nuclear_adoption%2C_etc._OWN_ADDITION)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Technology adoption target: An adoption target is a target that focuses on the adoption of a specific energy technology within a defined timeframe. Examples include renewable energy, nuclear adoption, etc. OWN ADDITION)",
+        "undefined": "Technology adoption target: An adoption target is a target that focuses on the adoption of a specific energy technology within a defined timeframe. Examples include renewable energy, nuclear adoption, etc. OWN ADDITION)"
+      },
+      "superClasses": [
+        "4"
+      ]
+    },
+    {
+      "id": "12",
+      "iri": "http://example.org/ontology#Renewable_energy_target%3A_Renewable_energy_target_is_an_adoption_target_for_renewable_energy_within_a_defined_timeframe.",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Renewable energy target: Renewable energy target is an adoption target for renewable energy within a defined timeframe.",
+        "undefined": "Renewable energy target: Renewable energy target is an adoption target for renewable energy within a defined timeframe."
+      },
+      "superClasses": [
+        "11"
+      ]
+    },
+    {
+      "id": "13",
+      "iri": "http://example.org/ontology#Energy_efficiency_target%3A_A_energy_efficiency_target_is_a_target_that_focuses_on_efficient_energy_use_within_a_defined_timeframe_(adapted_from_CPDB)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Energy efficiency target: A energy efficiency target is a target that focuses on efficient energy use within a defined timeframe (adapted from CPDB)",
+        "undefined": "Energy efficiency target: A energy efficiency target is a target that focuses on efficient energy use within a defined timeframe (adapted from CPDB)"
+      },
+      "superClasses": [
+        "4"
+      ]
+    },
+    {
+      "id": "14",
+      "iri": "http://example.org/ontology#Climate_target%3A_A_climate_target_is_a_target_that_focuses_on_GHG_emission_reduction_within_a_defined_timeframe._Examples_include_NDC_commitment%2C_net-zero_GHG_emission%2C_and_climate-neutrality_targets_(adapted_from_CPDB)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Climate target: A climate target is a target that focuses on GHG emission reduction within a defined timeframe. Examples include NDC commitment, net-zero GHG emission, and climate-neutrality targets (adapted from CPDB)",
+        "undefined": "Climate target: A climate target is a target that focuses on GHG emission reduction within a defined timeframe. Examples include NDC commitment, net-zero GHG emission, and climate-neutrality targets (adapted from CPDB)"
+      },
+      "superClasses": [
+        "4"
+      ]
+    },
+    {
+      "id": "15",
+      "iri": "http://example.org/ontology#Policy_instruments_are_specific_policy_tools_by_which_the_government_aims_to_achieve_its_objectives_(partially_draws_from_Howlett%3A_https%3A%2F%2Fwww.sfu.ca%2F~howlett%2Fdocuments%2Fchapter%25209.MH%2520copy.pdf_)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Policy instruments are specific policy tools by which the government aims to achieve its objectives (partially draws from Howlett: https://www.sfu.ca/~howlett/documents/chapter%209.MH%20copy.pdf )",
+        "undefined": "Policy instruments are specific policy tools by which the government aims to achieve its objectives (partially draws from Howlett: https://www.sfu.ca/~howlett/documents/chapter%209.MH%20copy.pdf )"
+      },
+      "superClasses": [
+        "6"
+      ]
+    },
+    {
+      "id": "16",
+      "iri": "http://example.org/ontology#Information_instrument%3A_An_information_instrument_is_a_policy_instrument_that_aims_at_providing_knowledge_to_persons_and%2For_institutions._(OEO%3B_equivalent_to_CPR_Information_%2F_Hood_Nodality%3B_CPDB_%22Information_provision%22%3B_in_Vedung_%22A_fundamental_policy_instrument_involving_measures_undertaken_to_influence_addressees_through_the_transfer_of_knowledge%2C_communication_of_reasoned_argument%2C_persuasion%2C_advice%22_(Public_Policy_and_Program_evaluation%2C_p._300)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Information instrument: An information instrument is a policy instrument that aims at providing knowledge to persons and/or institutions. (OEO; equivalent to CPR Information / Hood Nodality; CPDB \"Information provision\"; in Vedung \"A fundamental policy instrument involving measures undertaken to influence addressees through the transfer of knowledge, communication of reasoned argument, persuasion, advice\" (Public Policy and Program evaluation, p. 300)",
+        "undefined": "Information instrument: An information instrument is a policy instrument that aims at providing knowledge to persons and/or institutions. (OEO; equivalent to CPR Information / Hood Nodality; CPDB \"Information provision\"; in Vedung \"A fundamental policy instrument involving measures undertaken to influence addressees through the transfer of knowledge, communication of reasoned argument, persuasion, advice\" (Public Policy and Program evaluation, p. 300)"
+      },
+      "superClasses": [
+        "15",
+        "18"
+      ]
+    },
+    {
+      "id": "17",
+      "iri": "http://example.org/ontology#Public_information_campaigns%3A_Public_information_campaigns_are_an_information_instrument_where_governments_direct_and_sponsor_efforts_to_communicate_information_to_large_numbers_of_citizens_(in_Bemelmans-Vedec%2C_Rist_and_Vedung%2C_p._12)._(own_addition)._Example%3A_The_Irish_government_published_advertisements_across_media_platforms_to_encourage_energy_savings_and_provide_advice_on_energy-saving_measures._https%3A%2F%2Fwww.iea.org%2Fpolicies%2F15459-a-nationwide-campaign-to-encourage-energy-efficiency-and-highlight-available-supports",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Public information campaigns: Public information campaigns are an information instrument where governments direct and sponsor efforts to communicate information to large numbers of citizens (in Bemelmans-Vedec, Rist and Vedung, p. 12). (own addition). Example: The Irish government published advertisements across media platforms to encourage energy savings and provide advice on energy-saving measures. https://www.iea.org/policies/15459-a-nationwide-campaign-to-encourage-energy-efficiency-and-highlight-available-supports",
+        "undefined": "Public information campaigns: Public information campaigns are an information instrument where governments direct and sponsor efforts to communicate information to large numbers of citizens (in Bemelmans-Vedec, Rist and Vedung, p. 12). (own addition). Example: The Irish government published advertisements across media platforms to encourage energy savings and provide advice on energy-saving measures. https://www.iea.org/policies/15459-a-nationwide-campaign-to-encourage-energy-efficiency-and-highlight-available-supports"
+      },
+      "superClasses": [
+        "16"
+      ]
+    },
+    {
+      "id": "18",
+      "iri": "http://example.org/ontology#Policy_instruments_are_specific_policy_tools_by_which_the_government_aims_to_achieve_its_objectives.",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Policy instruments are specific policy tools by which the government aims to achieve its objectives.",
+        "undefined": "Policy instruments are specific policy tools by which the government aims to achieve its objectives."
+      },
+      "superClasses": [
+        "6",
+        "1"
+      ]
+    },
+    {
+      "id": "19",
+      "iri": "http://example.org/ontology#Education_instrument%3A_An_education_instrument_is_an_information_policy_instrument_that_aims_at_teaching_skills_to_specific_groups_of_people_(OEO)._%5BNOTE%3A_merged_categories%2C_sub-category_of_Information%5D",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Education instrument: An education instrument is an information policy instrument that aims at teaching skills to specific groups of people (OEO). [NOTE: merged categories, sub-category of Information]",
+        "undefined": "Education instrument: An education instrument is an information policy instrument that aims at teaching skills to specific groups of people (OEO). [NOTE: merged categories, sub-category of Information]"
+      },
+      "superClasses": [
+        "16"
+      ]
+    },
+    {
+      "id": "20",
+      "iri": "http://example.org/ontology#Implementation_aid%3A_Implementation_aid_is_an_educational_policy_instrument_that_provides_assistance_to_actors_engaging_in_mitigation-related_activities_(CPDB%2C_slightly_modified_to_fit_OEO_terminology_%26_put_within_new_subcategory_of_information_%22education_instrument%22)._For_example%2C_people_or_businesses_who_want_to_improve_building_efficiency_can_ask_for_advice_from_experts_employed_by_the_German_government_(%22Energieberatung%22%3A_https%3A%2F%2Fwww.energiewechsel.de%2FKAENEF%2FRedaktion%2FDE%2FDossier%2Fenergieberatung-uebersicht.html)_.",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Implementation aid: Implementation aid is an educational policy instrument that provides assistance to actors engaging in mitigation-related activities  (CPDB, slightly modified to fit OEO terminology & put within new subcategory of information \"education instrument\"). For example, people or businesses who want to improve building efficiency can ask for advice from experts employed by the German government (\"Energieberatung\": https://www.energiewechsel.de/KAENEF/Redaktion/DE/Dossier/energieberatung-uebersicht.html) .",
+        "undefined": "Implementation aid: Implementation aid is an educational policy instrument that provides assistance to actors engaging in mitigation-related activities  (CPDB, slightly modified to fit OEO terminology & put within new subcategory of information \"education instrument\"). For example, people or businesses who want to improve building efficiency can ask for advice from experts employed by the German government (\"Energieberatung\": https://www.energiewechsel.de/KAENEF/Redaktion/DE/Dossier/energieberatung-uebersicht.html) ."
+      },
+      "superClasses": [
+        "19"
+      ]
+    },
+    {
+      "id": "21",
+      "iri": "http://example.org/ontology#Changes_to_public_education%3A_Changes_to_public_education_are_an_education_policy_instrument_which_changes_what_is_taught_in_public_schooling_to_focus_on_climate_change%2C_for_example_curricula_or_learning_objectives_(own_category%2Fdefinition)._For_examples_see_%3A_https%3A%2F%2Funesdoc.unesco.org%2Fark%3A%2F48223%2Fpf0000379591",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Changes to public education: Changes to public education are an education policy instrument which changes what is taught in public schooling to focus on climate change, for example curricula or learning objectives (own category/definition). For examples see : https://unesdoc.unesco.org/ark:/48223/pf0000379591",
+        "undefined": "Changes to public education: Changes to public education are an education policy instrument which changes what is taught in public schooling to focus on climate change, for example curricula or learning objectives (own category/definition). For examples see : https://unesdoc.unesco.org/ark:/48223/pf0000379591"
+      },
+      "superClasses": [
+        "19"
+      ]
+    },
+    {
+      "id": "22",
+      "iri": "http://example.org/ontology#Training_program%3A_A_training_program_is_an_educational_policy_instrument_that_promotes_learning_for_professionals_to_obtain%2C_improve_or_retain_skills%2C_knowledge%2C_tools%2C_equipment_or_other_resources_to_do_their_work_competently_(adapted_from_CPDB%2C_professional_training_and_qualification%3B_part_of_definition_from_EEA%3A_https%3A%2F%2Fclimate-adapt.eea.europa.eu%2Fen%2Fmetadata%2Fadaptation-options%2Fcapacity-building-on-climate-change-adaptation)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Training program: A training program is an educational policy instrument that promotes learning for professionals to obtain, improve or retain skills, knowledge, tools, equipment or other resources to do their work competently (adapted from CPDB, professional training and qualification; part of definition from EEA: https://climate-adapt.eea.europa.eu/en/metadata/adaptation-options/capacity-building-on-climate-change-adaptation)",
+        "undefined": "Training program: A training program is an educational policy instrument that promotes learning for professionals to obtain, improve or retain skills, knowledge, tools, equipment or other resources to do their work competently (adapted from CPDB, professional training and qualification; part of definition from EEA: https://climate-adapt.eea.europa.eu/en/metadata/adaptation-options/capacity-building-on-climate-change-adaptation)"
+      },
+      "superClasses": [
+        "19"
+      ]
+    },
+    {
+      "id": "23",
+      "iri": "http://example.org/ontology#Vocational_training%3A_Vocational_training_is_a_training_program_that_prepares_people_with_specific_skills_for_technical_or_trades_work_(own_definintion)._Example%3A_https%3A%2F%2Fwww.iea.org%2Fpolicies%2F17844-cooperative-training-at-coal-sites-in-north-rhine-westphalia",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Vocational training: Vocational training is a training program that prepares people with specific skills for technical or trades work (own definintion). Example: https://www.iea.org/policies/17844-cooperative-training-at-coal-sites-in-north-rhine-westphalia",
+        "undefined": "Vocational training: Vocational training is a training program that prepares people with specific skills for technical or trades work (own definintion). Example: https://www.iea.org/policies/17844-cooperative-training-at-coal-sites-in-north-rhine-westphalia"
+      },
+      "superClasses": [
+        "22"
+      ]
+    },
+    {
+      "id": "24",
+      "iri": "http://example.org/ontology#Economic%3A_An_economic_instrument_is_a_policy_instrument_that_hands_out_or_takes_away_material_resources_while_the_addressees_are_not_obligated_to_take_the_measures_involved_(Vedung).",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Economic: An economic instrument is a policy instrument that hands out or takes away material resources while the addressees are not obligated to take the measures involved (Vedung).",
+        "undefined": "Economic: An economic instrument is a policy instrument that hands out or takes away material resources while the addressees are not obligated to take the measures involved (Vedung)."
+      },
+      "superClasses": [
+        "18"
+      ]
+    },
+    {
+      "id": "25",
+      "iri": "http://example.org/ontology#Fiscal_and_financial_incentives%3A_Fiscal_and_financial_incentives_are_economic_policy_instruments_through_which_the_state_provides_various_forms_of_economic_support_to_other_actors_for_climate-mitigation-related_activities._Beneficiaries_typically_receive_funding_in_the_form_of_soft_loans%2C_grants%2C_market_premiums%2C_tax_reductions%2C_or_similar_mechanisms_(own_definition)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Fiscal and financial incentives: Fiscal and financial incentives are economic policy instruments through which the state provides various forms of economic support to other actors for climate-mitigation-related activities. Beneficiaries typically receive funding in the form of soft loans, grants, market premiums, tax reductions, or similar mechanisms (own definition)",
+        "undefined": "Fiscal and financial incentives: Fiscal and financial incentives are economic policy instruments through which the state provides various forms of economic support to other actors for climate-mitigation-related activities. Beneficiaries typically receive funding in the form of soft loans, grants, market premiums, tax reductions, or similar mechanisms (own definition)"
+      },
+      "superClasses": [
+        "24"
+      ]
+    },
+    {
+      "id": "26",
+      "iri": "http://example.org/ontology#Levy_(fee%2Fcharge)%3A_A_levy_is_an_economic_instrument_that_consists_of_a_compulsory_financial_charge_imposed_on_an_agent_or_institution_by_a_governmental_organisation._%5BOEO%5D",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Levy (fee/charge): A levy is an economic instrument that consists of a compulsory financial charge imposed on an agent or institution by a governmental organisation. [OEO]",
+        "undefined": "Levy (fee/charge): A levy is an economic instrument that consists of a compulsory financial charge imposed on an agent or institution by a governmental organisation. [OEO]"
+      },
+      "superClasses": [
+        "25"
+      ]
+    },
+    {
+      "id": "27",
+      "iri": "http://example.org/ontology#Carbon_tax_and_GHG_emissions_taxes%3A_A_carbon_tax_is_a_tax_on_carbon_or_other_greenhouse_gas_emissions%2C_measured_in_CO2_equivalent_values_(combination_of_OEO_and_CPDB_definition%3B_CPDB%2C_slightly_tweaked_to_include_OEO_terminology)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Carbon tax and GHG emissions taxes: A carbon tax is a tax on carbon or other greenhouse gas emissions, measured in CO2 equivalent values (combination of OEO and CPDB definition; CPDB, slightly tweaked to include OEO terminology)",
+        "undefined": "Carbon tax and GHG emissions taxes: A carbon tax is a tax on carbon or other greenhouse gas emissions, measured in CO2 equivalent values (combination of OEO and CPDB definition; CPDB, slightly tweaked to include OEO terminology)"
+      },
+      "superClasses": [
+        "26"
+      ]
+    },
+    {
+      "id": "28",
+      "iri": "http://example.org/ontology#Energy_and_other_tax%3A_An_energy_tax_is_a_levy_on_energy_or_goods_and_services_that_are_carbon-intensive._This_instrument_includes_several_forms_of_environmental_taxation_such_as_energy_or_fuel_that_reduce_total_emissions_or_emissions_intensity_(CPDB%2C_slightly_tweaked_to_include_OEO_terminology)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Energy and other tax: An energy tax is a levy on energy or goods and services that are carbon-intensive. This instrument includes several forms of environmental taxation such as energy or fuel that reduce total emissions or emissions intensity (CPDB, slightly tweaked to include OEO terminology)",
+        "undefined": "Energy and other tax: An energy tax is a levy on energy or goods and services that are carbon-intensive. This instrument includes several forms of environmental taxation such as energy or fuel that reduce total emissions or emissions intensity (CPDB, slightly tweaked to include OEO terminology)"
+      },
+      "superClasses": [
+        "26"
+      ]
+    },
+    {
+      "id": "29",
+      "iri": "http://example.org/ontology#Resource_tax%3A_(DEFINITION)_%3D%3E_Resource_tax_is_a_tax_policy_tool_levied_on_taxable_natural_resources_that_aims_to_adjust_the_difference_between_income_and_resource_levels_and_improve_the_efficiency_of_resource_development_and_utilization._(paper_coding_row_592).",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Resource tax: (DEFINITION) => Resource tax is a tax policy tool levied on taxable natural resources that aims to adjust the difference between income and resource levels and improve the efficiency of resource development and utilization. (paper coding row 592).",
+        "undefined": "Resource tax: (DEFINITION) => Resource tax is a tax policy tool levied on taxable natural resources that aims to adjust the difference between income and resource levels and improve the efficiency of resource development and utilization. (paper coding row 592)."
+      },
+      "superClasses": [
+        "26"
+      ]
+    },
+    {
+      "id": "30",
+      "iri": "http://example.org/ontology#Increased_charge_for_dirty_infrastructure_or_technologies%3A_An_increased_charge_for_dirty_infrastructure_or_technologies_is_a_levy_on_the_use_of_dirtier_technologies_like_fossil_combustion_engines%2C_or_government-owned_or_provided_goods_and_services_like_highways_(adapted_from_%22user_charges%22%2C_CPDB)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Increased charge for dirty infrastructure or technologies: An increased charge for dirty infrastructure or technologies is a levy on the use of dirtier technologies like fossil combustion engines, or government-owned or provided goods and services like highways (adapted from \"user charges\", CPDB)",
+        "undefined": "Increased charge for dirty infrastructure or technologies: An increased charge for dirty infrastructure or technologies is a levy on the use of dirtier technologies like fossil combustion engines, or government-owned or provided goods and services like highways (adapted from \"user charges\", CPDB)"
+      },
+      "superClasses": [
+        "26"
+      ]
+    },
+    {
+      "id": "31",
+      "iri": "http://example.org/ontology#Feebate_(Bonus%2FMalus)%3A_A_feebate_or_bonus_malus_scheme_is_an_economic_instrument_that_imposes_fees_on_a_high-emitting_technology_and_provides_rebates_for_low-emitting_technologies._An_emissions_%E2%80%9Cnull-point%E2%80%9D_is_set%2C_where_the_buyer_gets_neither_a_bonus_nor_a_malus._The_idea_is_that_the_system_would_be_neutral_on_public_finances._See%3A_https%3A%2F%2Facademic.oup.com%2Fej%2Farticle-abstract%2F124%2F578%2FF444%2F5076980%2C_https%3A%2F%2Fwww.tandfonline.com%2Fdoi%2Fpdf%2F10.1080%2F15568318.2018.1437237",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Feebate (Bonus/Malus): A feebate or bonus malus scheme is an economic instrument that imposes fees on a high-emitting technology and provides rebates for low-emitting technologies. An emissions “null-point” is set,\nwhere the buyer gets neither a bonus nor a malus. The idea is that the system would be neutral on public finances. See: https://academic.oup.com/ej/article-abstract/124/578/F444/5076980, https://www.tandfonline.com/doi/pdf/10.1080/15568318.2018.1437237",
+        "undefined": "Feebate (Bonus/Malus): A feebate or bonus malus scheme is an economic instrument that imposes fees on a high-emitting technology and provides rebates for low-emitting technologies. An emissions “null-point” is set,\nwhere the buyer gets neither a bonus nor a malus. The idea is that the system would be neutral on public finances. See: https://academic.oup.com/ej/article-abstract/124/578/F444/5076980, https://www.tandfonline.com/doi/pdf/10.1080/15568318.2018.1437237"
+      },
+      "superClasses": [
+        "25"
+      ]
+    },
+    {
+      "id": "32",
+      "iri": "http://example.org/ontology#Removal_of_fossil_fuel_subsidies%3A_removal_of_fossil_fuel_subsidies_is_an_economic_policy_instrument_which_abolishes_or_reduces_existing_subsidies_either_at_the_production_or_consumption_ends_(CPDB%2C_moved_from_Section_%22Barrier_removal%22%2C_slightly_tweaked_for_OEO)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Removal of fossil fuel subsidies: removal of fossil fuel subsidies is an economic policy instrument which abolishes or reduces existing subsidies either at the production or consumption ends (CPDB, moved from Section \"Barrier removal\", slightly tweaked for OEO)",
+        "undefined": "Removal of fossil fuel subsidies: removal of fossil fuel subsidies is an economic policy instrument which abolishes or reduces existing subsidies either at the production or consumption ends (CPDB, moved from Section \"Barrier removal\", slightly tweaked for OEO)"
+      },
+      "superClasses": [
+        "25"
+      ]
+    },
+    {
+      "id": "33",
+      "iri": "http://example.org/ontology#Fee_decreases_and_exemptions%3A_Fee_decreases_and_exemptions_are_fiscal_incentives_where_the_government_supports_mitigation_activities_by_reducing_or_exempting_green_activities_from_existing_fees_or_charges._For_example%2C_the_German_9_Euro_ticket_to_promote_using_public_transport%2C_or_the_removal_of_vehicle_registration_fees_for_electric_vehicles_(OWN_ADDITION)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Fee decreases and exemptions: Fee decreases and exemptions are fiscal incentives where the government supports mitigation activities by reducing or exempting green activities from existing fees or charges. For example, the German 9 Euro ticket to promote using public transport, or the removal of vehicle registration fees for electric vehicles (OWN ADDITION)",
+        "undefined": "Fee decreases and exemptions: Fee decreases and exemptions are fiscal incentives where the government supports mitigation activities by reducing or exempting green activities from existing fees or charges. For example, the German 9 Euro ticket to promote using public transport, or the removal of vehicle registration fees for electric vehicles (OWN ADDITION)"
+      },
+      "superClasses": [
+        "25"
+      ]
+    },
+    {
+      "id": "34",
+      "iri": "http://example.org/ontology#Tax_incentive%3A_A_tax_incentive_is_a_fiscal_incentive_where_the_government_reduces_or_exempts_selected_activities_or_actors_from_taxes%2C_with_the_purpose_of_incentivizing_mitigation_activities_(CPDB)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Tax incentive: A tax incentive is a fiscal incentive where the government reduces or exempts selected activities or actors from taxes, with the purpose of incentivizing mitigation activities (CPDB)",
+        "undefined": "Tax incentive: A tax incentive is a fiscal incentive where the government reduces or exempts selected activities or actors from taxes, with the purpose of incentivizing mitigation activities (CPDB)"
+      },
+      "superClasses": [
+        "25"
+      ]
+    },
+    {
+      "id": "35",
+      "iri": "http://example.org/ontology#Tax_reduction%3A_A_tax_reduction_is_a_fiscal_incentive_where_the_government_reduces_taxes_or_tax_rates_for_selected_activities_or_actors%2C_with_the_purpose_of_incentivizing_mitigation_activities_(CPDB%2C_moved_from_Section_%22Fiscal_and_Financial_incentives%22_and_split_in_to_reduction_and_exemption)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Tax reduction: A tax reduction is a fiscal incentive where the government reduces taxes or tax rates for selected activities or actors, with the purpose of incentivizing mitigation activities (CPDB, moved from Section \"Fiscal and Financial incentives\" and split in to reduction and exemption)",
+        "undefined": "Tax reduction: A tax reduction is a fiscal incentive where the government reduces taxes or tax rates for selected activities or actors, with the purpose of incentivizing mitigation activities (CPDB, moved from Section \"Fiscal and Financial incentives\" and split in to reduction and exemption)"
+      },
+      "superClasses": [
+        "34"
+      ]
+    },
+    {
+      "id": "36",
+      "iri": "http://example.org/ontology#Accelerated_depreciation_rule%3A_Accelerated_depreciation_rule_is_a_tax_rebate_where_the_government_allows_sustainable_projects_to_depreciate_(part_of)_the_investment_in_the_early_years_of_the_asset%E2%80%99s_life%2C_effectively_reducing_their_taxable_income_during_these_years_(Hafner_%26_Lilliestam_2019%2C_tweaked_for_OEO_and_moved)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Accelerated depreciation rule: Accelerated depreciation rule is a tax rebate where the government allows sustainable projects to depreciate (part of) the investment in the early years of the asset’s life, effectively reducing their taxable income during these years (Hafner & Lilliestam 2019, tweaked for OEO and moved)",
+        "undefined": "Accelerated depreciation rule: Accelerated depreciation rule is a tax rebate where the government allows sustainable projects to depreciate (part of) the investment in the early years of the asset’s life, effectively reducing their taxable income during these years (Hafner & Lilliestam 2019, tweaked for OEO and moved)"
+      },
+      "superClasses": [
+        "35"
+      ]
+    },
+    {
+      "id": "37",
+      "iri": "http://example.org/ontology#Tax_rebate_(rebate_is_on_purchasing%2C_upfront%2C_credit_is_later_https%3A%2F%2Fwww.cleanenergyresourceteams.org%2Fwhat-you-need-know-about-ira-tax-credit-vs-rebate_)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Tax rebate (rebate is on purchasing, upfront, credit is later https://www.cleanenergyresourceteams.org/what-you-need-know-about-ira-tax-credit-vs-rebate )",
+        "undefined": "Tax rebate (rebate is on purchasing, upfront, credit is later https://www.cleanenergyresourceteams.org/what-you-need-know-about-ira-tax-credit-vs-rebate )"
+      },
+      "superClasses": [
+        "35"
+      ]
+    },
+    {
+      "id": "38",
+      "iri": "http://example.org/ontology#Tax_credit_-_for_income_tax_declaration",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Tax credit - for income tax declaration",
+        "undefined": "Tax credit - for income tax declaration"
+      },
+      "superClasses": [
+        "35"
+      ]
+    },
+    {
+      "id": "39",
+      "iri": "http://example.org/ontology#Tax_exemption%3A_A_tax_exemption_is_a_fiscal_incentive_where_the_government_exempts_selected_activities_or_actors_from_taxes%2C_with_the_purpose_of_incentivizing_mitigation_activities_(CPDB%2C_moved_from_Section_%22Fiscal_and_Financial_incentives%22_and_split_in_to_reduction_and_exemption)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Tax exemption: A tax exemption is a fiscal incentive where the government exempts selected activities or actors from taxes, with the purpose of incentivizing mitigation activities (CPDB, moved from Section \"Fiscal and Financial incentives\" and split in to reduction and exemption)",
+        "undefined": "Tax exemption: A tax exemption is a fiscal incentive where the government exempts selected activities or actors from taxes, with the purpose of incentivizing mitigation activities (CPDB, moved from Section \"Fiscal and Financial incentives\" and split in to reduction and exemption)"
+      },
+      "superClasses": [
+        "34"
+      ]
+    },
+    {
+      "id": "40",
+      "iri": "http://example.org/ontology#Value_added_tax_exemption%3A_A_value_added_tax_(VAT)_exemption_is_a_fiscal_incentive_where_the_government_does_not_collect_VAT_for_mitigation_activities_(in_Hafner_%26_Lilliestam)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Value added tax exemption: A value added tax (VAT) exemption is a fiscal incentive where the government does not collect VAT for mitigation activities (in Hafner & Lilliestam)",
+        "undefined": "Value added tax exemption: A value added tax (VAT) exemption is a fiscal incentive where the government does not collect VAT for mitigation activities (in Hafner & Lilliestam)"
+      },
+      "superClasses": [
+        "39"
+      ]
+    },
+    {
+      "id": "41",
+      "iri": "http://example.org/ontology#Individual_tax_exemptions%3A_tax_exemptions_for_indivduals_for_sustainable_behaviors%2C_such_as_energy_efficient_home_renovations_or_electric_vehicle_purchases_https%3A%2F%2Fwww.energiewechsel.de%2FKAENEF%2FRedaktion%2FDE%2FFoerderprogramme%2Fsteuerliche-foerderung-fuer-energetische-gebaeudesanierung.html_(OWN_ADDITION).",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Individual tax exemptions: tax exemptions for indivduals for sustainable behaviors, such as energy efficient home renovations or electric vehicle purchases https://www.energiewechsel.de/KAENEF/Redaktion/DE/Foerderprogramme/steuerliche-foerderung-fuer-energetische-gebaeudesanierung.html (OWN ADDITION).",
+        "undefined": "Individual tax exemptions: tax exemptions for indivduals for sustainable behaviors, such as energy efficient home renovations or electric vehicle purchases https://www.energiewechsel.de/KAENEF/Redaktion/DE/Foerderprogramme/steuerliche-foerderung-fuer-energetische-gebaeudesanierung.html (OWN ADDITION)."
+      },
+      "superClasses": [
+        "39"
+      ]
+    },
+    {
+      "id": "42",
+      "iri": "http://example.org/ontology#Retirement_premium%3A_A_retirement_premium_is_a_fiscal_incentive_where_the_government_provides_support_for_the_early_retirement_of_emissions-intensive_or_inefficient_assets_(CPDB%2C_moved_from_Section_%22Economic-Fiscal_and_Financial_Incentives%22_and_tweaked_slightly_for_OEO)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Retirement premium: A retirement premium is a fiscal incentive where the government provides support for the early retirement of emissions-intensive or inefficient assets (CPDB, moved from Section \"Economic-Fiscal and Financial Incentives\" and tweaked slightly for OEO)",
+        "undefined": "Retirement premium: A retirement premium is a fiscal incentive where the government provides support for the early retirement of emissions-intensive or inefficient assets (CPDB, moved from Section \"Economic-Fiscal and Financial Incentives\" and tweaked slightly for OEO)"
+      },
+      "superClasses": [
+        "25"
+      ]
+    },
+    {
+      "id": "43",
+      "iri": "http://example.org/ontology#Product_retirement_premium%3A_a_retirement_premium_for_emissions-intensive_products_used_by_consumers_such_as_fossil_fuel_vehicle_swap_or_scrappage_schemes_(own_addition%2C_in_conversation_with_CPDB)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Product retirement premium: a retirement premium for emissions-intensive products used by consumers such as fossil fuel vehicle swap or scrappage schemes (own addition, in conversation with CPDB)",
+        "undefined": "Product retirement premium: a retirement premium for emissions-intensive products used by consumers such as fossil fuel vehicle swap or scrappage schemes (own addition, in conversation with CPDB)"
+      },
+      "superClasses": [
+        "42"
+      ]
+    },
+    {
+      "id": "44",
+      "iri": "http://example.org/ontology#Infrastructure_retirement_premium%3A_a_retirement_premium_for_emissions-intensive_infrastructures_to_close_early_such_as_coal-fired_power_plants_(own_addition%2C_in_conversation_with_CPDB)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Infrastructure retirement premium: a retirement premium for emissions-intensive infrastructures to close early such as coal-fired power plants (own addition, in conversation with CPDB)",
+        "undefined": "Infrastructure retirement premium: a retirement premium for emissions-intensive infrastructures to close early such as coal-fired power plants (own addition, in conversation with CPDB)"
+      },
+      "superClasses": [
+        "42"
+      ]
+    },
+    {
+      "id": "45",
+      "iri": "http://example.org/ontology#Market_premium%3A_A_market_premium_is_a_fiscal_incentive_that_ensures_additional_remuneration_on_top_of_market_prices%2C_or_a_guaranteed_renumeration_by_paying_to_the_producing_agent_the_difference_between_a_guaranteed_return_on_a_good%2Fproduct_and_the_monetary_price_for_which_the_good%2Fproduct_is_traded_on_the_market.",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Market premium: A market premium is a fiscal incentive that ensures additional remuneration on top of market prices, or a guaranteed renumeration by paying to the producing agent the difference between a guaranteed return on a good/product and the monetary price for which the good/product is traded on the market.",
+        "undefined": "Market premium: A market premium is a fiscal incentive that ensures additional remuneration on top of market prices, or a guaranteed renumeration by paying to the producing agent the difference between a guaranteed return on a good/product and the monetary price for which the good/product is traded on the market."
+      },
+      "superClasses": [
+        "25"
+      ]
+    },
+    {
+      "id": "46",
+      "iri": "http://example.org/ontology#Capacity_premium%3A_A_capacity_premium_is_a_market_premium_that_guarantees_remuneration_for_reserving_capacity_of_energy_transformation_units_to_be_available_for_unexpected_events_(OEO).",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Capacity premium: A capacity premium is a market premium that guarantees remuneration for reserving capacity of energy transformation units to be available for unexpected events (OEO).",
+        "undefined": "Capacity premium: A capacity premium is a market premium that guarantees remuneration for reserving capacity of energy transformation units to be available for unexpected events (OEO)."
+      },
+      "superClasses": [
+        "45"
+      ]
+    },
+    {
+      "id": "47",
+      "iri": "http://example.org/ontology#2-way_Contract_for_Difference_(or_2-sided_contract_for_difference%2C_symmetrical_market_premium)%3A_A_2-way_contract_for_difference_is_a_market_premium_in_which_both_positive_and_negative_deviations_from_a_fixed_reference_price_are_paid_out_to_the_contractual_partner._This_means_that_a_minimum_compensation_is_guaranteed%2C_but_revenues_are_capped._(own_addition%3B_definition_via%3A_https%3A%2F%2Fwww.next-kraftwerke.com%2Fknowledge%2Fcontract-for-difference).",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "2-way Contract for Difference (or 2-sided contract for difference, symmetrical market premium): A 2-way contract for difference is a market premium in which both positive and negative deviations from a fixed reference price are paid out to the contractual partner. This means that a minimum compensation is guaranteed, but revenues are capped. (own addition; definition via:  https://www.next-kraftwerke.com/knowledge/contract-for-difference).",
+        "undefined": "2-way Contract for Difference (or 2-sided contract for difference, symmetrical market premium): A 2-way contract for difference is a market premium in which both positive and negative deviations from a fixed reference price are paid out to the contractual partner. This means that a minimum compensation is guaranteed, but revenues are capped. (own addition; definition via:  https://www.next-kraftwerke.com/knowledge/contract-for-difference)."
+      },
+      "superClasses": [
+        "45"
+      ]
+    },
+    {
+      "id": "48",
+      "iri": "http://example.org/ontology#Feed-in_Tariff%3A_A_feed-in_tariff_is_a_market_premium_where_energy_producers_are_paid_fixed_prices_for_every_unit_of_energy_fed_into_the_grid_for_a_number_of_years_in_the_future_(Lilliestam_definition%3B_different_from_OEO%3B_and_differs_from_CPDB%3A_%22Renewable_electricity_price_surcharge_to_benefit_producers%22)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Feed-in Tariff: A feed-in tariff is a market premium where energy producers are paid fixed prices for every unit of energy fed into the grid for a number of years in the future (Lilliestam definition; different from OEO; and differs from CPDB: \"Renewable electricity price surcharge to benefit producers\")",
+        "undefined": "Feed-in Tariff: A feed-in tariff is a market premium where energy producers are paid fixed prices for every unit of energy fed into the grid for a number of years in the future (Lilliestam definition; different from OEO; and differs from CPDB: \"Renewable electricity price surcharge to benefit producers\")"
+      },
+      "superClasses": [
+        "45"
+      ]
+    },
+    {
+      "id": "49",
+      "iri": "http://example.org/ontology#Feed-in_Premium_(also_called_one-sided_Contract_for_Difference)%3A_A_feed-in_premium_is_a_market_premium_where_energy_generators_are_paid_a_premium_on_top_of_the_price_they_achieve_in_the_electricity_market%2C_for_electricity_fed_into_the_grid_for_a_number_of_years_in_the_future_(Lilliestam_definition)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Feed-in Premium (also called one-sided Contract for Difference): A feed-in premium is a market premium where energy generators are paid a premium on top of the price they achieve in the electricity market, for electricity fed into the grid for a number of years in the future (Lilliestam definition)",
+        "undefined": "Feed-in Premium (also called one-sided Contract for Difference): A feed-in premium is a market premium where energy generators are paid a premium on top of the price they achieve in the electricity market, for electricity fed into the grid for a number of years in the future (Lilliestam definition)"
+      },
+      "superClasses": [
+        "45"
+      ]
+    },
+    {
+      "id": "50",
+      "iri": "http://example.org/ontology#Auction_with_FIT_or_FIP%3A_An_auction_with_a_feed-in_tariff_or_FIP_is_a_market_premium_granted_in_a_bidding_competition_or_auction%2C_wherein_tendered_capacity_includes_additional_support_through_FITs_or_FIPs_(edited_to_fit_OEO_typology%2C_from_Hafner_%26_Lilliestam_2019)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Auction with FIT or FIP: An auction with a feed-in tariff or FIP is a market premium granted in a bidding competition or auction, wherein tendered capacity includes additional support through FITs or FIPs (edited to fit OEO typology, from Hafner & Lilliestam 2019)",
+        "undefined": "Auction with FIT or FIP: An auction with a feed-in tariff or FIP is a market premium granted in a bidding competition or auction, wherein tendered capacity includes additional support through FITs or FIPs (edited to fit OEO typology, from Hafner & Lilliestam 2019)"
+      },
+      "superClasses": [
+        "45"
+      ]
+    },
+    {
+      "id": "51",
+      "iri": "http://example.org/ontology#Grant%3A_a_grant_is_fiscal_incentive_where_the_government_provides_non-repayable_funding_for_specific_purposes_(CPDB%2C_split_from_%22grants_and_subsidies%22_into_%22grants%22_and_%22subsidies%22%2C_slightly_modified_to_fit_OEO_terminology)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Grant: a grant is fiscal incentive where the government provides non-repayable funding for specific purposes (CPDB, split from \"grants and subsidies\" into \"grants\" and \"subsidies\", slightly modified to fit OEO terminology)",
+        "undefined": "Grant: a grant is fiscal incentive where the government provides non-repayable funding for specific purposes (CPDB, split from \"grants and subsidies\" into \"grants\" and \"subsidies\", slightly modified to fit OEO terminology)"
+      },
+      "superClasses": [
+        "25"
+      ]
+    },
+    {
+      "id": "52",
+      "iri": "http://example.org/ontology#Purchase_grant%3A_A_purchase_grant_is_a_grant_that_provides_financial_support_to_consumers_for_purchasing_climate-mitigation-related_goods_and_services.",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Purchase grant: A purchase grant is a grant that provides financial support to consumers for purchasing climate-mitigation-related goods and services.",
+        "undefined": "Purchase grant: A purchase grant is a grant that provides financial support to consumers for purchasing climate-mitigation-related goods and services."
+      },
+      "superClasses": [
+        "51"
+      ]
+    },
+    {
+      "id": "53",
+      "iri": "http://example.org/ontology#Soft_loan%3A_A_soft_loan_is_an_economic_policy_instrument_where_the_government_provides_loans_for_at_preferential_conditions_to_lower_financing_costs._(Example%3A_low-interest_loan_for_a_company_to_build_charging_infrastructure%2C_or_for_a_person_to_purchase_an_EV)._(Hafner_%26_Lilliestam_2019%2C_tweaked_to_include_different_kinds_of_financing)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Soft loan: A soft loan is an economic policy instrument where the government provides loans for at preferential conditions to lower financing costs. (Example: low-interest loan for a company to build charging infrastructure, or for a person to purchase an EV). (Hafner & Lilliestam 2019, tweaked to include different kinds of financing)",
+        "undefined": "Soft loan: A soft loan is an economic policy instrument where the government provides loans for at preferential conditions to lower financing costs. (Example: low-interest loan for a company to build charging infrastructure, or for a person to purchase an EV). (Hafner & Lilliestam 2019, tweaked to include different kinds of financing)"
+      },
+      "superClasses": [
+        "25"
+      ]
+    },
+    {
+      "id": "54",
+      "iri": "http://example.org/ontology#Loan_guarantee%3A_A_loan_guarantee_is_an_economic_policy_instrument_where_the_government_guarantees_to_pay_the_loan_should_the_project_go_bankrupt%2C_lowering_the_default_risk_and_therefore_the_required_returns_on_debt_and%2For_equity_(Hafner_%26_Lilliestam_2019%2C_tweaked_for_OEO)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Loan guarantee: A loan guarantee is an economic policy instrument where the government guarantees to pay the loan should the project go bankrupt, lowering the default risk and therefore the required returns on debt and/or equity (Hafner & Lilliestam 2019, tweaked for OEO)",
+        "undefined": "Loan guarantee: A loan guarantee is an economic policy instrument where the government guarantees to pay the loan should the project go bankrupt, lowering the default risk and therefore the required returns on debt and/or equity (Hafner & Lilliestam 2019, tweaked for OEO)"
+      },
+      "superClasses": [
+        "25"
+      ]
+    },
+    {
+      "id": "55",
+      "iri": "http://example.org/ontology#Insurance%3A_An_insurance_mechanism_is_a_fiscal%2Ffinancial_investment_where_the_government_provides_insurance_to_projects_(CPR%2C_from_section_Economic%3AIncentives_and_direct_investment_and_tweaked_slightly_for_OEO_definitions)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Insurance: An insurance mechanism is a fiscal/financial investment where the government provides insurance to projects (CPR, from section Economic:Incentives and direct investment and tweaked slightly for OEO definitions)",
+        "undefined": "Insurance: An insurance mechanism is a fiscal/financial investment where the government provides insurance to projects (CPR, from section Economic:Incentives and direct investment and tweaked slightly for OEO definitions)"
+      },
+      "superClasses": [
+        "25"
+      ]
+    },
+    {
+      "id": "56",
+      "iri": "http://example.org/ontology#Direct_investment%3A_a_direct_investment_is_an_economic_policy_instrument_where_the_government_supports_mitigation_activities_by_funding_activities_directly%2C_ie._its_own_public_agencies_or_institions.",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Direct investment: a direct investment is an economic policy instrument where the government supports mitigation activities by funding activities directly, ie. its own public agencies or institions.",
+        "undefined": "Direct investment: a direct investment is an economic policy instrument where the government supports mitigation activities by funding activities directly, ie. its own public agencies or institions."
+      },
+      "superClasses": [
+        "24"
+      ]
+    },
+    {
+      "id": "57",
+      "iri": "http://example.org/ontology#Direct_infrastructure_investment%3A_infrastructure_investment_is_a_direct_investment_by_the_government_in_infrastructure_projects_(CPDB%2C_tweaked_slightly)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Direct infrastructure investment: infrastructure investment is a direct investment by the government in infrastructure projects (CPDB, tweaked slightly)",
+        "undefined": "Direct infrastructure investment: infrastructure investment is a direct investment by the government in infrastructure projects (CPDB, tweaked slightly)"
+      },
+      "superClasses": [
+        "56"
+      ]
+    },
+    {
+      "id": "58",
+      "iri": "http://example.org/ontology#Direct_investment%3A_a_direct_investment_is_an_economic_policy_instrument_where_the_government_supports_mitigation_activities_by_funding_activities_directly.",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Direct investment: a direct investment is an economic policy instrument where the government supports mitigation activities by funding activities directly.",
+        "undefined": "Direct investment: a direct investment is an economic policy instrument where the government supports mitigation activities by funding activities directly."
+      },
+      "superClasses": [
+        "24"
+      ]
+    },
+    {
+      "id": "59",
+      "iri": "http://example.org/ontology#Direct_R%26D_funding%3A_R%26D_funding_is_a_direct_investment_by_the_government_in_government_green_R%26D_programmes_or_projects_(CPDB_-_relocated_and_tweaked_for_OEO)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Direct R&D funding: R&D funding is a direct investment by the government in government green R&D programmes or projects (CPDB - relocated and tweaked for OEO)",
+        "undefined": "Direct R&D funding: R&D funding is a direct investment by the government in government green R&D programmes or projects (CPDB - relocated and tweaked for OEO)"
+      },
+      "superClasses": [
+        "58"
+      ]
+    },
+    {
+      "id": "60",
+      "iri": "http://example.org/ontology#Green_public_procurement%3A_government_purchases_a_green_good_or_service_directly._This_can_include_power_purchase_agreements_if_the_offtaker_is_a_state_entity._Another_example_is_that_a_city_or_state_will_buy_a_fleet_of_electric_buses_for_public_transport_(tweaked%2Fcombined_CPR_%22green_procurement%22%2C_CPDB_%22procurement_rules%22).",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Green public procurement: government purchases a green good or service directly. This can include power purchase agreements if the offtaker is a state entity. Another example is that a city or state will buy a fleet of electric buses for public transport (tweaked/combined CPR \"green procurement\", CPDB \"procurement rules\").",
+        "undefined": "Green public procurement: government purchases a green good or service directly. This can include power purchase agreements if the offtaker is a state entity. Another example is that a city or state will buy a fleet of electric buses for public transport (tweaked/combined CPR \"green procurement\", CPDB \"procurement rules\")."
+      },
+      "superClasses": [
+        "58"
+      ]
+    },
+    {
+      "id": "61",
+      "iri": "http://example.org/ontology#Trading_scheme%3A_A_trading_scheme_is_an_economic_policy_instrument_where_a_limit_or_standard_has_been_established_for_environmental_performance%3B_certificates_of_performance_or_credits_can_then_be_traded_in_a_marketplace_to_incentivize_environmentally-friendly_performance_(own_definition%2C_gathered_from_CPDB_definitions_of_sub-instrument_types)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Trading scheme: A trading scheme is an economic policy instrument where a limit or standard has been established for environmental performance; certificates of performance or credits can then be traded in a marketplace to incentivize environmentally-friendly performance (own definition, gathered from CPDB definitions of sub-instrument types)",
+        "undefined": "Trading scheme: A trading scheme is an economic policy instrument where a limit or standard has been established for environmental performance; certificates of performance or credits can then be traded in a marketplace to incentivize environmentally-friendly performance (own definition, gathered from CPDB definitions of sub-instrument types)"
+      },
+      "superClasses": [
+        "24"
+      ]
+    },
+    {
+      "id": "62",
+      "iri": "http://example.org/ontology#GHG_emissions_trading_(carbon_markets)%3A_An_greenhouse_gas_emissions_trading_scheme_is_a_trading_scheme_wherein_governments_establish_emissions_limits_or_caps_on_specific_actors_which_can_be_traded_to_incentivize_cost-effective_emissions_reductions_(CPDB%2C_tweaked_a_bit)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "GHG emissions trading (carbon markets): An greenhouse gas emissions trading scheme is a trading scheme wherein governments establish emissions limits or caps on specific actors which can be traded to incentivize cost-effective emissions reductions (CPDB, tweaked a bit)",
+        "undefined": "GHG emissions trading (carbon markets): An greenhouse gas emissions trading scheme is a trading scheme wherein governments establish emissions limits or caps on specific actors which can be traded to incentivize cost-effective emissions reductions (CPDB, tweaked a bit)"
+      },
+      "superClasses": [
+        "61"
+      ]
+    },
+    {
+      "id": "63",
+      "iri": "http://example.org/ontology#White_certificate_trading_scheme%3A_A_white_certificate_scheme_is_a_trading_scheme_where_the_government_has_established_a_quota_for_the_generation_of_tradable_energy_savings_certificates_produced_by_energy_efficiency_activities_OR_reduced_energy_consumption_measured_against_a_baseline%3B_these_can_be_traded_to_incentivize_emissions_reducations_(CPDB%2C_tweaked_to_conform_with_other_definitions_and_to_include_Chinese_energy_consumption_trading_scheme)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "White certificate trading scheme: A white certificate scheme is a trading scheme where the government has established a quota for the generation of tradable energy savings certificates produced by energy efficiency activities OR reduced energy consumption measured against a baseline; these can be traded to incentivize emissions reducations (CPDB, tweaked to conform with other definitions and to include Chinese energy consumption trading scheme)",
+        "undefined": "White certificate trading scheme: A white certificate scheme is a trading scheme where the government has established a quota for the generation of tradable energy savings certificates produced by energy efficiency activities OR reduced energy consumption measured against a baseline; these can be traded to incentivize emissions reducations (CPDB, tweaked to conform with other definitions and to include Chinese energy consumption trading scheme)"
+      },
+      "superClasses": [
+        "61"
+      ]
+    },
+    {
+      "id": "64",
+      "iri": "http://example.org/ontology#Green_certificate_trading_scheme%3A_a_green_certificate_scheme_is_a_trading_scheme_where_the_government_has_established_a_quota_for_the_generation_of_tradable_renewable_energy_certificates%3B_these_can_be_traded_to_incentivize_emissions_reducation_(CPDB)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Green certificate trading scheme: a green certificate scheme is a trading scheme where the government has established a quota for the generation of tradable renewable energy certificates; these can be traded to incentivize emissions reducation (CPDB)",
+        "undefined": "Green certificate trading scheme: a green certificate scheme is a trading scheme where the government has established a quota for the generation of tradable renewable energy certificates; these can be traded to incentivize emissions reducation (CPDB)"
+      },
+      "superClasses": [
+        "61"
+      ]
+    },
+    {
+      "id": "65",
+      "iri": "http://example.org/ontology#Offsetting_scheme%3A_An_offsetting_scheme_is_a_trading_scheme_where_mitigation_activities_can_calculate_their_impact_against_a_baseline_to_obtain_credits_which_can_be_sold_for_offsetting_purposes_such_as_Baseline-and-Credit_schemes_(CPDB%2C_slightly_changed_following_discussion)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Offsetting scheme: An offsetting scheme is a trading scheme where mitigation activities can calculate their impact against a baseline to obtain credits which can be sold for offsetting purposes such as Baseline-and-Credit schemes (CPDB, slightly changed following discussion)",
+        "undefined": "Offsetting scheme: An offsetting scheme is a trading scheme where mitigation activities can calculate their impact against a baseline to obtain credits which can be sold for offsetting purposes such as Baseline-and-Credit schemes (CPDB, slightly changed following discussion)"
+      },
+      "superClasses": [
+        "61"
+      ]
+    },
+    {
+      "id": "66",
+      "iri": "http://example.org/ontology#Regulatory%3A_A_regulatory_instrument_is_a_policy_instrument_that_is_a_measure_taken_by_governments_which_mandate_recievers_to_act_in_accordance_with_what_is_ordered_in_formulated_rules_and_directives_(Vedung%2C_but_slightly_tweaked)._Such_rules_prescribe_the_abandonment_or_adoption_of_desired_processes%2C_technologies%2C_products_or_results._Failure_to_comply_may_incur_financial_penalties_and%2For_legal_sanctions_(adapted_from_IPCC)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Regulatory: A regulatory instrument is a policy instrument that is a measure taken by governments which mandate recievers to act in accordance with what is ordered in formulated rules and directives (Vedung, but slightly tweaked). Such rules prescribe the abandonment or adoption of desired processes, technologies, products or results. Failure to comply may incur financial penalties and/or legal sanctions (adapted from IPCC)",
+        "undefined": "Regulatory: A regulatory instrument is a policy instrument that is a measure taken by governments which mandate recievers to act in accordance with what is ordered in formulated rules and directives (Vedung, but slightly tweaked). Such rules prescribe the abandonment or adoption of desired processes, technologies, products or results. Failure to comply may incur financial penalties and/or legal sanctions (adapted from IPCC)"
+      },
+      "superClasses": [
+        "18",
+        "18"
+      ]
+    },
+    {
+      "id": "67",
+      "iri": "http://example.org/ontology#Zoning_and_spatial_planning_regulation%3A_A_zoning_and_spatial_planning_regulation_is_a_policy_instrument_that_determines_where_objects_can_exist_in_space%3A_either_where_something_can_be_built%2Fused%2C_or_what_kinds_of_things_can_be_built_in_specific_geographic_locations_(Own_definition%3B_exists_in_CPR_but_without_subcategories).",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Zoning and spatial planning regulation: A zoning and spatial planning regulation is a policy instrument that determines where objects can exist in space: either where something can be built/used, or what kinds of things can be built in specific geographic locations (Own definition; exists in CPR but without subcategories).",
+        "undefined": "Zoning and spatial planning regulation: A zoning and spatial planning regulation is a policy instrument that determines where objects can exist in space: either where something can be built/used, or what kinds of things can be built in specific geographic locations (Own definition; exists in CPR but without subcategories)."
+      },
+      "superClasses": [
+        "66"
+      ]
+    },
+    {
+      "id": "68",
+      "iri": "http://example.org/ontology#Infrastructure_location_regulation%3A_An_infrastructure_location_regulation_is_a_zoning_and_spatial_planning_instrument_that_determines_where_infrastructure_can_be_built_or_used_(OWN_ADDITION).",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Infrastructure location regulation: An infrastructure location regulation is a zoning and spatial planning instrument that determines where infrastructure can be built or used (OWN ADDITION).",
+        "undefined": "Infrastructure location regulation: An infrastructure location regulation is a zoning and spatial planning instrument that determines where infrastructure can be built or used (OWN ADDITION)."
+      },
+      "superClasses": [
+        "67"
+      ]
+    },
+    {
+      "id": "69",
+      "iri": "http://example.org/ontology#User_change%3A_A_user_change_is_a_zoning_and_spatial_planning_instrument_that_fosters_changes_in_user_behaviour%2C_for_example_reduction_of_available_parking_places_(CPDB%2C_tweaked_for_OEO)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "User change: A user change is a zoning and spatial planning instrument that fosters changes in user behaviour, for example reduction of available parking places (CPDB, tweaked for OEO)",
+        "undefined": "User change: A user change is a zoning and spatial planning instrument that fosters changes in user behaviour, for example reduction of available parking places (CPDB, tweaked for OEO)"
+      },
+      "superClasses": [
+        "68"
+      ]
+    },
+    {
+      "id": "70",
+      "iri": "http://example.org/ontology#Setback_distance%3A_A_setback_distance_is_a_zoning_and_spatial_planning_instrument_that_sets_a_minimum_distance_between_objects%2C_Examples_include_the_distances_between_a_wind_turbine_and_a_residential_building%2C_railroads%2C_transmission_line%2C_and_bodies_of_water_(Own_addition)_https%3A%2F%2Fwww.nrel.gov%2Fnews%2Fprogram%2F2022%2Fnrel-releases-comprehensive-databases-of-local-ordinances-for-siting-wind-solar-energy-projects.html",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Setback distance: A setback distance is a zoning and spatial planning instrument that sets a minimum distance between objects, Examples include the distances between a wind turbine and a residential building, railroads, transmission line, and bodies of water (Own addition)\n\nhttps://www.nrel.gov/news/program/2022/nrel-releases-comprehensive-databases-of-local-ordinances-for-siting-wind-solar-energy-projects.html",
+        "undefined": "Setback distance: A setback distance is a zoning and spatial planning instrument that sets a minimum distance between objects, Examples include the distances between a wind turbine and a residential building, railroads, transmission line, and bodies of water (Own addition)\n\nhttps://www.nrel.gov/news/program/2022/nrel-releases-comprehensive-databases-of-local-ordinances-for-siting-wind-solar-energy-projects.html"
+      },
+      "superClasses": [
+        "68"
+      ]
+    },
+    {
+      "id": "71",
+      "iri": "http://example.org/ontology#Exclusion_area%3A_An_exclusion_area_is_a_zoning_and_spatial_planning_regulation_that_excludes_a_certain_area_from_being_eligible_for_objects_to_be_built_or_entered._An_example_include_include_an_exclusion_zone_for_wind_energy_due_to_legal%2C_environmental_or_safety_concerns%2C_(own_addition_and_definition_%26_adapted_from_Bucha_and_Ramirez_Camargo%2C_%E2%80%9CDeliverable_D2.10_Data_on_Regulatory_and_Socio-Economic_Conditions_and_Impacts_(b).%E2%80%9D_Dec._2024.)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Exclusion area: An exclusion area is a zoning and spatial planning regulation that excludes a certain area from being eligible for objects to be built or entered. An example include include an exclusion zone for wind energy due to legal, environmental or safety concerns,\n\n(own addition and definition & adapted from Bucha and Ramirez Camargo, “Deliverable D2.10 Data on Regulatory and Socio-Economic Conditions and Impacts (b).” Dec. 2024.)",
+        "undefined": "Exclusion area: An exclusion area is a zoning and spatial planning regulation that excludes a certain area from being eligible for objects to be built or entered. An example include include an exclusion zone for wind energy due to legal, environmental or safety concerns,\n\n(own addition and definition & adapted from Bucha and Ramirez Camargo, “Deliverable D2.10 Data on Regulatory and Socio-Economic Conditions and Impacts (b).” Dec. 2024.)"
+      },
+      "superClasses": [
+        "68"
+      ]
+    },
+    {
+      "id": "72",
+      "iri": "http://example.org/ontology#Low_emissions_zone%3A_A_low_emissions_zone_is_an_exclusion_area_where_vehicles_with_higher_emissions_cannot_enter%2C_or_have_to_pay_a_higher_fee_(Own_addition%2C_see_EU_urban_access_regulations%3A_https%3A%2F%2Furbanaccessregulations.eu%2Flow-emission-zones-main)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Low emissions zone: A low emissions zone is an exclusion area where vehicles with higher emissions cannot enter, or have to pay a higher fee (Own addition, see EU urban access regulations: https://urbanaccessregulations.eu/low-emission-zones-main)",
+        "undefined": "Low emissions zone: A low emissions zone is an exclusion area where vehicles with higher emissions cannot enter, or have to pay a higher fee (Own addition, see EU urban access regulations: https://urbanaccessregulations.eu/low-emission-zones-main)"
+      },
+      "superClasses": [
+        "71"
+      ]
+    },
+    {
+      "id": "73",
+      "iri": "http://example.org/ontology#Priority_area%3A_A_priority_area_is_a_zoning_and_spatial_planning_regulation_that_prioritizes_a_certain_area_to_be_built_or_entered._An_example_includes_a_priority_zone_for_wind_energy_due_to_the_high_wind_potential_or_less_conflict_with_neighborhoods._(OWN_ADDITION_and_adapted_from_Bucha_and_Ramirez_Camargo%2C_%E2%80%9CDeliverable_D2.10_Data_on_Regulatory_and_Socio-Economic_Conditions_and_Impacts_(b).%E2%80%9D_Dec._2024.)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Priority area: A priority area is a zoning and spatial planning regulation that prioritizes \na certain area to be built or entered. An example includes a priority zone for wind energy due to the high wind potential or less conflict with neighborhoods.\n\n(OWN ADDITION and adapted from Bucha and Ramirez Camargo, “Deliverable D2.10 Data on Regulatory and Socio-Economic Conditions and Impacts (b).” Dec. 2024.)",
+        "undefined": "Priority area: A priority area is a zoning and spatial planning regulation that prioritizes \na certain area to be built or entered. An example includes a priority zone for wind energy due to the high wind potential or less conflict with neighborhoods.\n\n(OWN ADDITION and adapted from Bucha and Ramirez Camargo, “Deliverable D2.10 Data on Regulatory and Socio-Economic Conditions and Impacts (b).” Dec. 2024.)"
+      },
+      "superClasses": [
+        "68"
+      ]
+    },
+    {
+      "id": "74",
+      "iri": "http://example.org/ontology#Other_installation_limitation%3A_An_installation_limitation_is_a_zoning_and_spatial_planning_regulation_that_sets_limitation_of_renewable_energy_or_EV_charging_infrastructure_in_addition_to_height%2C_shadow_flicker%2C_and_rotor_limitations%2C_etc._It_can_be_either_by_location_or_characteristics%2C_such_as_area_(lot_sizes)_limitation%2C_installed_capacity_limitation%2C_or_other_setup_limitations_(OWN_ADDITION)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Other installation limitation: An installation limitation is a zoning and spatial planning regulation that sets limitation of renewable energy or EV charging infrastructure in addition to height, shadow flicker, and rotor limitations, etc. It can be either by location or characteristics, such as area (lot sizes) limitation, installed capacity limitation, or other setup limitations (OWN ADDITION)",
+        "undefined": "Other installation limitation: An installation limitation is a zoning and spatial planning regulation that sets limitation of renewable energy or EV charging infrastructure in addition to height, shadow flicker, and rotor limitations, etc. It can be either by location or characteristics, such as area (lot sizes) limitation, installed capacity limitation, or other setup limitations (OWN ADDITION)"
+      },
+      "superClasses": [
+        "68"
+      ]
+    },
+    {
+      "id": "75",
+      "iri": "http://example.org/ontology#Infrastructure_characteristic_regulation%3A_An_infrastructure_characteristic_regulation_is_a_zoning_and_spatial_planning_instrument_that_determines_what_kinds_of_objects_can_be_built_or_used_in_specific_locations_(OWN_ADDITION).",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Infrastructure characteristic regulation: An infrastructure characteristic regulation is a zoning and spatial planning instrument that determines what kinds of objects can be built or used in specific locations (OWN ADDITION).",
+        "undefined": "Infrastructure characteristic regulation: An infrastructure characteristic regulation is a zoning and spatial planning instrument that determines what kinds of objects can be built or used in specific locations (OWN ADDITION)."
+      },
+      "superClasses": [
+        "67"
+      ]
+    },
+    {
+      "id": "76",
+      "iri": "http://example.org/ontology#Noise_limit%3A_A_noise_limit_is_a_zoning_and_spatial_planning_regulation_that_sets_a_noise_limit_in_a_specific_area._Examples_include_noise_limits_for_wind_turbines_in_residential_areas._(OWN_ADDITION_and_adapted_from_Bucha_and_Ramirez_Camargo%2C_%E2%80%9CDeliverable_D2.10_Data_on_Regulatory_and_Socio-Economic_Conditions_and_Impacts_(b).%E2%80%9D_Dec._2024.)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Noise limit: A noise limit is a zoning and spatial planning regulation that sets a noise limit in a specific area. Examples include noise limits for wind turbines in residential areas.\n\n(OWN ADDITION and adapted from Bucha and Ramirez Camargo, “Deliverable D2.10 Data on Regulatory and Socio-Economic Conditions and Impacts (b).” Dec. 2024.)",
+        "undefined": "Noise limit: A noise limit is a zoning and spatial planning regulation that sets a noise limit in a specific area. Examples include noise limits for wind turbines in residential areas.\n\n(OWN ADDITION and adapted from Bucha and Ramirez Camargo, “Deliverable D2.10 Data on Regulatory and Socio-Economic Conditions and Impacts (b).” Dec. 2024.)"
+      },
+      "superClasses": [
+        "75"
+      ]
+    },
+    {
+      "id": "77",
+      "iri": "http://example.org/ontology#Shadow_flicker_limit%3A_A_shadow_flicker_limit_is_a_zoning_and_spatial_planning_regulation_that_sets_a_shadow_flicker_limit_(OWN_ADDITION)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Shadow flicker limit: A shadow flicker limit is a zoning and spatial planning regulation that sets a shadow flicker limit (OWN ADDITION)",
+        "undefined": "Shadow flicker limit: A shadow flicker limit is a zoning and spatial planning regulation that sets a shadow flicker limit (OWN ADDITION)"
+      },
+      "superClasses": [
+        "75"
+      ]
+    },
+    {
+      "id": "78",
+      "iri": "http://example.org/ontology#Height_restriction%3A_A_maximum_height_regulation_is_a_zoning_and_spatial_planning_instrument_that_sets_a_maximum_height_for_an_object._An_example_includes_a_height_limitation_of_wind_turbine_(Own_addition)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Height restriction: A maximum height regulation is a zoning and spatial planning instrument that sets a maximum height for an object. An example includes a height limitation of wind turbine (Own addition)",
+        "undefined": "Height restriction: A maximum height regulation is a zoning and spatial planning instrument that sets a maximum height for an object. An example includes a height limitation of wind turbine (Own addition)"
+      },
+      "superClasses": [
+        "75"
+      ]
+    },
+    {
+      "id": "79",
+      "iri": "http://example.org/ontology#Rotor_size_restriction%3A_A_rotor_size_restriction_is_a_zoning_and_spatial_planning_instrument_that_sets_a_rotor_restriction_for_an_object._An_example_includes_a_rotor_size_limitation_of_wind_turbine_(Own_addition)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Rotor size restriction: A rotor size restriction is a zoning and spatial planning instrument that sets a rotor restriction for an object. An example includes a rotor size limitation of wind turbine (Own addition)",
+        "undefined": "Rotor size restriction: A rotor size restriction is a zoning and spatial planning instrument that sets a rotor restriction for an object. An example includes a rotor size limitation of wind turbine (Own addition)"
+      },
+      "superClasses": [
+        "75"
+      ]
+    },
+    {
+      "id": "80",
+      "iri": "http://example.org/ontology#Standard%3A_A_standard_is_a_regulatory_policy_instrument_that_defines_requirements_for_products%2C_production_processes%2C_services_or_test-methods_(EU%2C_on_European_standards_-_https%3A%2F%2Fsingle-market-economy.ec.europa.eu%2Fsingle-market%2Feuropean-standards_en_)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Standard: A standard is a regulatory policy instrument that defines requirements for products, production processes, services or test-methods (EU, on European standards - https://single-market-economy.ec.europa.eu/single-market/european-standards_en )",
+        "undefined": "Standard: A standard is a regulatory policy instrument that defines requirements for products, production processes, services or test-methods (EU, on European standards - https://single-market-economy.ec.europa.eu/single-market/european-standards_en )"
+      },
+      "superClasses": [
+        "66",
+        "66"
+      ]
+    },
+    {
+      "id": "81",
+      "iri": "http://example.org/ontology#Performance_standard%3A_A_performance_standard_is_a_standard_that_sets_required_levels_of_performance_(in_terms_of_emissions%2C_efficiency_etc)%2C_but_actors_are_free_to_choose_the_technologies_and_methods_for_how_they_will_do_so._(IPCC%2C_tweaked_for_OEO)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Performance standard: A performance standard is a standard that sets required levels of performance (in terms of emissions, efficiency etc), but actors are free to choose the technologies and methods for how they will do so. (IPCC, tweaked for OEO)",
+        "undefined": "Performance standard: A performance standard is a standard that sets required levels of performance (in terms of emissions, efficiency etc), but actors are free to choose the technologies and methods for how they will do so. (IPCC, tweaked for OEO)"
+      },
+      "superClasses": [
+        "80"
+      ]
+    },
+    {
+      "id": "82",
+      "iri": "http://example.org/ontology#Pollution%2Femissions_cap_or_standard%3A_a_performance_standards_that_sets_a_cap_on_emissions_or_pollution%2C_either_total_per_actor%2Fsector%2C_or_per_unit_of_output_(see_https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS0095069612000046%3Fvia%253Dihub)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Pollution/emissions cap or standard: a performance standards that sets a cap on emissions or pollution, either total per actor/sector, or per unit of output (see https://www.sciencedirect.com/science/article/pii/S0095069612000046?via%3Dihub)",
+        "undefined": "Pollution/emissions cap or standard: a performance standards that sets a cap on emissions or pollution, either total per actor/sector, or per unit of output (see https://www.sciencedirect.com/science/article/pii/S0095069612000046?via%3Dihub)"
+      },
+      "superClasses": [
+        "81"
+      ]
+    },
+    {
+      "id": "83",
+      "iri": "http://example.org/ontology#Sectoral_emissions_cap%3A_A_sectoral_emissions_cap_is_a_cap_that_sets_out_the_maximum_amount_for_how_much_actors_are_allowed_to_emit_or_pollute_(OWN_addition._May_be_a_regulatory_element_of_a_trading_system%3B_see_https%3A%2F%2Fclimate.ec.europa.eu%2Feu-action%2Feu-emissions-trading-system-eu-ets%2Femissions-cap-and-allowances_en_)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Sectoral emissions cap: A sectoral emissions cap is a cap that sets out the maximum amount for how much actors are allowed to emit or pollute (OWN addition. May be a regulatory element of a trading system; see https://climate.ec.europa.eu/eu-action/eu-emissions-trading-system-eu-ets/emissions-cap-and-allowances_en )",
+        "undefined": "Sectoral emissions cap: A sectoral emissions cap is a cap that sets out the maximum amount for how much actors are allowed to emit or pollute (OWN addition. May be a regulatory element of a trading system; see https://climate.ec.europa.eu/eu-action/eu-emissions-trading-system-eu-ets/emissions-cap-and-allowances_en )"
+      },
+      "superClasses": [
+        "82"
+      ]
+    },
+    {
+      "id": "84",
+      "iri": "http://example.org/ontology#Industrial_air_pollution_standard%3A_An_industrial_air_pollution_standard_is_a_mandatory_standard_for_the_emission_of_polluting_substances_by_industry_actors_including_but_not_limited_to_GHG_gases_(CPDB%2C_tweaked_for_OEO)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Industrial air pollution standard: An industrial air pollution standard is a mandatory standard for the emission of polluting substances by industry actors including but not limited to GHG gases (CPDB, tweaked for OEO)",
+        "undefined": "Industrial air pollution standard: An industrial air pollution standard is a mandatory standard for the emission of polluting substances by industry actors including but not limited to GHG gases (CPDB, tweaked for OEO)"
+      },
+      "superClasses": [
+        "82"
+      ]
+    },
+    {
+      "id": "85",
+      "iri": "http://example.org/ontology#Vehicle_air_pollution_or_emissions_standard%3A_A_vehicle_air_pollution_standard_is_a_performance_standard_for_the_maximum_emission_of_substances_such_as_greenhouse_gas_emissions%2C_hydrocarbons%2C_oxides_of_nitrogen_and_particulate_matter_for_new_vehicles_(CPDB%2C_tweaked_for_OEO)_--%3E_NOTE%3A_changed_scope%2C_included_GHG_emissions",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Vehicle air pollution or emissions standard: A vehicle air pollution standard is a performance standard for the maximum emission of substances such as greenhouse gas emissions, hydrocarbons, oxides of nitrogen and particulate matter for new vehicles (CPDB, tweaked for OEO) --> NOTE: changed scope, included GHG emissions",
+        "undefined": "Vehicle air pollution or emissions standard: A vehicle air pollution standard is a performance standard for the maximum emission of substances such as greenhouse gas emissions, hydrocarbons, oxides of nitrogen and particulate matter for new vehicles (CPDB, tweaked for OEO) --> NOTE: changed scope, included GHG emissions"
+      },
+      "superClasses": [
+        "82"
+      ]
+    },
+    {
+      "id": "86",
+      "iri": "http://example.org/ontology#Fuel_air_pollution_or_emissions_standard%3A_a_fuel_standard_is_a_performance_standard_that_sets_out_emissions_and_pollution_requirements_for_fuel_(own_addition%2C_see_https%3A%2F%2Fclimate.ec.europa.eu%2Feu-action%2Ftransport%2Ffuel-quality_en)._NOTE%3A_some_policy_instruments_called_%22fuel_standard%22_are_a_combination_of_a_performance_standard_and_an_emissions_trading_system_(like_Canada's_LCFS_-_see_https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS0301421523005049).",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Fuel air pollution or emissions standard: a fuel standard is a performance standard that sets out emissions and pollution requirements for fuel (own addition, see https://climate.ec.europa.eu/eu-action/transport/fuel-quality_en). NOTE: some policy instruments called \"fuel standard\" are a combination of a performance standard and an emissions trading system (like Canada's LCFS - see https://www.sciencedirect.com/science/article/pii/S0301421523005049).",
+        "undefined": "Fuel air pollution or emissions standard: a fuel standard is a performance standard that sets out emissions and pollution requirements for fuel (own addition, see https://climate.ec.europa.eu/eu-action/transport/fuel-quality_en). NOTE: some policy instruments called \"fuel standard\" are a combination of a performance standard and an emissions trading system (like Canada's LCFS - see https://www.sciencedirect.com/science/article/pii/S0301421523005049)."
+      },
+      "superClasses": [
+        "82"
+      ]
+    },
+    {
+      "id": "87",
+      "iri": "http://example.org/ontology#Building_emissions_standard%3A_standards_that_regulate_the_allowable_levels_of_pollution_or_CO2_emissions_associated_with_the_building_(such_as_heating_systems).",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Building emissions standard: standards that regulate the allowable levels of pollution or CO2 emissions associated with the building (such as heating systems).",
+        "undefined": "Building emissions standard: standards that regulate the allowable levels of pollution or CO2 emissions associated with the building (such as heating systems)."
+      },
+      "superClasses": [
+        "82"
+      ]
+    },
+    {
+      "id": "88",
+      "iri": "http://example.org/ontology#Product_emissions_standard%3A_A_product_efficiency_standard_is_an_efficiency_standard_for_specific_products_to_limit_their_energy_intensity_(CPDB_-_%22product_standard%22_refers_only_to_appliances%3B_split_into_2%2C_this_one_and_%22appliance_efficiency_standard%22)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Product emissions standard:  A product efficiency standard is an efficiency standard for specific products to limit their energy intensity (CPDB - \"product standard\" refers only to appliances; split into 2, this one and \"appliance efficiency standard\")",
+        "undefined": "Product emissions standard:  A product efficiency standard is an efficiency standard for specific products to limit their energy intensity (CPDB - \"product standard\" refers only to appliances; split into 2, this one and \"appliance efficiency standard\")"
+      },
+      "superClasses": [
+        "82"
+      ]
+    },
+    {
+      "id": "89",
+      "iri": "http://example.org/ontology#Energy_use_cap_or_efficiency_standard%3A_a_performance_standard_that_sets_a_cap_on_energy_use%2C_either_total_per_actor%2Fsector%2C_or_per_unit_of_output_(own_addition)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Energy use cap or efficiency standard: a performance standard that sets a cap on energy use, either total per actor/sector, or per unit of output (own addition)",
+        "undefined": "Energy use cap or efficiency standard: a performance standard that sets a cap on energy use, either total per actor/sector, or per unit of output (own addition)"
+      },
+      "superClasses": [
+        "81"
+      ]
+    },
+    {
+      "id": "90",
+      "iri": "http://example.org/ontology#Sectoral_energy_use_cap%3A_an_energy_use_cap_that_sets_the_maximum_amount_for_how_much_energy_actors_are_allowed_to_consume._This_can_be_(but_is_not_always)_a_regulatory_element_of_effiency-related_trading_systems_(OWN_addition%2C_see_https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS0360544221022192)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Sectoral energy use cap: an energy use cap that sets the maximum amount for how much energy actors are allowed to consume. This can be (but is not always) a regulatory element of effiency-related trading systems (OWN addition, see https://www.sciencedirect.com/science/article/pii/S0360544221022192)",
+        "undefined": "Sectoral energy use cap: an energy use cap that sets the maximum amount for how much energy actors are allowed to consume. This can be (but is not always) a regulatory element of effiency-related trading systems (OWN addition, see https://www.sciencedirect.com/science/article/pii/S0360544221022192)"
+      },
+      "superClasses": [
+        "89"
+      ]
+    },
+    {
+      "id": "91",
+      "iri": "http://example.org/ontology#Energy_efficiency_quota%3A_An_efficiency_quota_is_an_energy_cap_that_sets_out_quotas_for_energy_efficiency_improvements_(based_on_CPDB_%E2%80%9CObligation_Scheme%E2%80%9D_but_differentiated)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Energy efficiency quota: An efficiency quota is an energy cap that sets out quotas for energy efficiency improvements (based on CPDB “Obligation Scheme” but differentiated)",
+        "undefined": "Energy efficiency quota: An efficiency quota is an energy cap that sets out quotas for energy efficiency improvements (based on CPDB “Obligation Scheme” but differentiated)"
+      },
+      "superClasses": [
+        "89"
+      ]
+    },
+    {
+      "id": "92",
+      "iri": "http://example.org/ontology#Industrial_efficiency_standard%3A_An_industrial_efficiency_standard_is_a_mandatory_standard_for_the_energy_efficiency_of_industry_actors_(CPDB%2C_tweaked_for_OEO)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Industrial efficiency standard: An industrial efficiency standard is a mandatory standard for the energy efficiency of industry actors (CPDB, tweaked for OEO)",
+        "undefined": "Industrial efficiency standard: An industrial efficiency standard is a mandatory standard for the energy efficiency of industry actors (CPDB, tweaked for OEO)"
+      },
+      "superClasses": [
+        "89"
+      ]
+    },
+    {
+      "id": "93",
+      "iri": "http://example.org/ontology#Vehicle_fuel-economy_or_efficiency_standard%3A_A_vehicle_fuel-economy%2Fefficiency_standard_is_a_performance_standard_for_the_minimum_fuel-efficiency_for_vehicles_(CPDB%2C_tweaked_for_OEO)_--%3E_note%3A_removed_emissions%2C_no_longer_precisely_CPDB_compatible",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Vehicle fuel-economy or efficiency standard: A vehicle fuel-economy/efficiency standard is a performance standard for the minimum fuel-efficiency for vehicles (CPDB, tweaked for OEO) --> note: removed emissions, no longer precisely CPDB compatible",
+        "undefined": "Vehicle fuel-economy or efficiency standard: A vehicle fuel-economy/efficiency standard is a performance standard for the minimum fuel-efficiency for vehicles (CPDB, tweaked for OEO) --> note: removed emissions, no longer precisely CPDB compatible"
+      },
+      "superClasses": [
+        "89"
+      ]
+    },
+    {
+      "id": "94",
+      "iri": "http://example.org/ontology#Building_efficiency_standard%3A_a_building_efficiency_standard_is_a_building_standard_which_requires_buildings_to_comply_with_requirements_for_energy_demand_and_the_heat_that_can_escape._Example%3A_standards_for_insulation._(OWN_DEFINITION).",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Building efficiency standard: a building efficiency standard is a building standard which requires buildings to comply with requirements for energy demand and the heat that can escape. Example: standards for insulation. (OWN DEFINITION).",
+        "undefined": "Building efficiency standard: a building efficiency standard is a building standard which requires buildings to comply with requirements for energy demand and the heat that can escape. Example: standards for insulation. (OWN DEFINITION)."
+      },
+      "superClasses": [
+        "89"
+      ]
+    },
+    {
+      "id": "95",
+      "iri": "http://example.org/ontology#Minimum_performance_level_for_rented_buildings%3A_A_minimum_performance_level_is_a_building_efficiency_standard_that_requires_certain_performance_in_rental_units_(own_addition%2C_inspired_by_CPDB_'removal_of_split_incentives')._NOTE_-_CAN_BE_TECHNOLOGY_OR_PERFORMANCE_STANDARD",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Minimum performance level for rented buildings: A minimum performance level is a building efficiency standard that requires certain performance in rental units (own addition, inspired by CPDB 'removal of split incentives'). NOTE - CAN BE TECHNOLOGY OR PERFORMANCE STANDARD",
+        "undefined": "Minimum performance level for rented buildings: A minimum performance level is a building efficiency standard that requires certain performance in rental units (own addition, inspired by CPDB 'removal of split incentives'). NOTE - CAN BE TECHNOLOGY OR PERFORMANCE STANDARD"
+      },
+      "superClasses": [
+        "94"
+      ]
+    },
+    {
+      "id": "96",
+      "iri": "http://example.org/ontology#Product_efficiency_standard%3A_A_product_efficiency_standard_is_an_efficiency_standard_for_specific_products_to_limit_their_energy_intensity_(CPDB_-_%22product_standard%22_refers_only_to_appliances%3B_split_into_2%2C_this_one_and_%22appliance_emissions_standard%22)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Product efficiency standard: A product efficiency standard is an efficiency standard for specific products to limit their energy intensity (CPDB - \"product standard\" refers only to appliances; split into 2, this one and \"appliance emissions standard\")",
+        "undefined": "Product efficiency standard: A product efficiency standard is an efficiency standard for specific products to limit their energy intensity (CPDB - \"product standard\" refers only to appliances; split into 2, this one and \"appliance emissions standard\")"
+      },
+      "superClasses": [
+        "89"
+      ]
+    },
+    {
+      "id": "97",
+      "iri": "http://example.org/ontology#Technology_standard%3A_A_technology_standard_is_a_standard_that_requires_a_specific_technology%2C_process_or_product._They_typically_take_one_of_four_forms%3A_requirements_for_specific_pollution_abatement_technologies%3B_requirements_for_specific_production_methods%3B_requirements_for_specific_goods_such_as_energy_efficient_appliances%3B_or_phase-out_mandates_(IPCC)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Technology standard: A technology standard is a standard that requires a specific technology, process or product. They typically take one of four forms: requirements for specific pollution abatement technologies; requirements for specific production methods; requirements for specific goods such as energy efficient appliances; or phase-out mandates (IPCC)",
+        "undefined": "Technology standard: A technology standard is a standard that requires a specific technology, process or product. They typically take one of four forms: requirements for specific pollution abatement technologies; requirements for specific production methods; requirements for specific goods such as energy efficient appliances; or phase-out mandates (IPCC)"
+      },
+      "superClasses": [
+        "80"
+      ]
+    },
+    {
+      "id": "98",
+      "iri": "http://example.org/ontology#Moratoria_or_ban%3A_A_moratoria_or_ban_is_a_technology_standard_that_forbids_an_activity%2C_technology_or_product_because_of_its_environmental_harms_(CPR_-_NOTE%3A_this_is_moved_to_sub-section_'standards'%2C_whereas_it_is_stand-alone_in_CPR)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Moratoria or ban: A moratoria or ban is a technology standard that forbids an activity, technology or product because of its environmental harms (CPR - NOTE: this is moved to sub-section 'standards', whereas it is stand-alone in CPR)",
+        "undefined": "Moratoria or ban: A moratoria or ban is a technology standard that forbids an activity, technology or product because of its environmental harms (CPR - NOTE: this is moved to sub-section 'standards', whereas it is stand-alone in CPR)"
+      },
+      "superClasses": [
+        "97"
+      ]
+    },
+    {
+      "id": "99",
+      "iri": "http://example.org/ontology#Quota%3A_A_quota_is_a_standard_wherein_a_quantified_obligation_is_imposed_on_some_actor_to_acquire%2C_use%2C_install_etc._a_certain_quota_of_a_clean_good_or_service._(adapted_from_European_Commission%2C_Bertoldi_and_Rezessy_2006%2C_https%3A%2F%2Fpublications.jrc.ec.europa.eu%2Frepository%2Fbitstream%2FJRC32865%2F2865-white_cert_report_final.pdf)._Examples_include_a_minimum_share_of_zero-emission_vehicles_or_of_renewable_electricity._These_may_or_may_not_be_tied_to_trading_schemes_like_green_or_white_certificates_schemes",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Quota: A quota is a standard wherein a quantified obligation is imposed on some actor to acquire, use, install etc. a certain quota of a clean good or service. (adapted from European Commission, Bertoldi and Rezessy 2006, https://publications.jrc.ec.europa.eu/repository/bitstream/JRC32865/2865-white_cert_report_final.pdf). Examples include a minimum share of zero-emission vehicles or of renewable electricity. These may or may not be tied to trading schemes like green or white certificates schemes",
+        "undefined": "Quota: A quota is a standard wherein a quantified obligation is imposed on some actor to acquire, use, install etc. a certain quota of a clean good or service. (adapted from European Commission, Bertoldi and Rezessy 2006, https://publications.jrc.ec.europa.eu/repository/bitstream/JRC32865/2865-white_cert_report_final.pdf). Examples include a minimum share of zero-emission vehicles or of renewable electricity. These may or may not be tied to trading schemes like green or white certificates schemes"
+      },
+      "superClasses": [
+        "80"
+      ]
+    },
+    {
+      "id": "100",
+      "iri": "http://example.org/ontology#Purchasing_requirement_%2F_quota%3A_(demand-side_quota)%3A_A_purchasing_requirement%2Fquota_is_a_quota_which_requires_an_actor_to_acquire_a_certain_share_of_a_clean_good_or_service._(adapted_from_European_Commission%2C_Bertoldi_and_Rezessy_2006%2C_https%3A%2F%2Fpublications.jrc.ec.europa.eu%2Frepository%2Fbitstream%2FJRC32865%2F2865-white_cert_report_final.pdf)._Examples%3A_a_minimum_share_of_zero-emission_vehicles_or_of_renewable_electricity_%5Balso_known_as%3A_portfolio_standard%2C_purchase_obligation%5D.",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Purchasing requirement / quota: (demand-side quota): A purchasing requirement/quota is a quota which requires an actor to acquire a certain share of a clean good or service. (adapted from European Commission, Bertoldi and Rezessy 2006, https://publications.jrc.ec.europa.eu/repository/bitstream/JRC32865/2865-white_cert_report_final.pdf). Examples: a minimum share of zero-emission vehicles or of renewable electricity [also known as: portfolio standard, purchase obligation].",
+        "undefined": "Purchasing requirement / quota: (demand-side quota): A purchasing requirement/quota is a quota which requires an actor to acquire a certain share of a clean good or service. (adapted from European Commission, Bertoldi and Rezessy 2006, https://publications.jrc.ec.europa.eu/repository/bitstream/JRC32865/2865-white_cert_report_final.pdf). Examples: a minimum share of zero-emission vehicles or of renewable electricity [also known as: portfolio standard, purchase obligation]."
+      },
+      "superClasses": [
+        "99"
+      ]
+    },
+    {
+      "id": "101",
+      "iri": "http://example.org/ontology#Production_requirement_%2F_quota%3A_(supply-side_quota)%3A_A_production_requirement%2Fquota_is_a_quota_which_requires_an_actor_to_provide_a_certain_share_of_a_clean_good_or_service._(adapted_from_Purchasing_requirement_definition%2C_and_from_https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS030142152300383X%3Fvia%253Dihub%23abs0010.)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Production requirement / quota: (supply-side quota): A production requirement/quota is a quota which requires an actor to provide a certain share of a clean good or service. (adapted from Purchasing requirement definition, and from https://www.sciencedirect.com/science/article/pii/S030142152300383X?via%3Dihub#abs0010.)",
+        "undefined": "Production requirement / quota: (supply-side quota): A production requirement/quota is a quota which requires an actor to provide a certain share of a clean good or service. (adapted from Purchasing requirement definition, and from https://www.sciencedirect.com/science/article/pii/S030142152300383X?via%3Dihub#abs0010.)"
+      },
+      "superClasses": [
+        "99"
+      ]
+    },
+    {
+      "id": "102",
+      "iri": "http://example.org/ontology#Quota%3A_A_quota_is_a_standard_wherein_a_quantified_obligation_is_imposed_on_some_actor_to_acquire%2C_use%2C_install_etc._a_certain_quota_of_a_clean_good_or_service._(adapted_from_European_Commission%2C_Bertoldi_and_Rezessy_2006%2C_https%3A%2F%2Fpublications.jrc.ec.europa.eu%2Frepository%2Fbitstream%2FJRC32865%2F2865-white_cert_report_final.pdf)._Examples_include_a_minimum_share_of_zero-emission_vehicles_or_of_renewable_electricity.",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Quota: A quota is a standard wherein a quantified obligation is imposed on some actor to acquire, use, install etc. a certain quota of a clean good or service. (adapted from European Commission, Bertoldi and Rezessy 2006, https://publications.jrc.ec.europa.eu/repository/bitstream/JRC32865/2865-white_cert_report_final.pdf). Examples include a minimum share of zero-emission vehicles or of renewable electricity.",
+        "undefined": "Quota: A quota is a standard wherein a quantified obligation is imposed on some actor to acquire, use, install etc. a certain quota of a clean good or service. (adapted from European Commission, Bertoldi and Rezessy 2006, https://publications.jrc.ec.europa.eu/repository/bitstream/JRC32865/2865-white_cert_report_final.pdf). Examples include a minimum share of zero-emission vehicles or of renewable electricity."
+      },
+      "superClasses": [
+        "80"
+      ]
+    },
+    {
+      "id": "103",
+      "iri": "http://example.org/ontology#Installation_requirement_%2F_quota%3A_An_installation_requirement_is_a_quota_which_requires_an_actor_to_install_a_certain_share_of_a_clean_good_or_service._Example%3A_parking_lot_owner_must_install_at_least_1_EV_charger_per_10_parking_spaces%3B_100%25_of_new_rented_buildings_must_have_solar_panels.",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Installation requirement / quota: An installation requirement is a quota which requires an actor to install a certain share of a clean good or service. Example: parking lot owner must install at least 1 EV charger per 10 parking spaces; 100% of new rented buildings must have solar panels.",
+        "undefined": "Installation requirement / quota: An installation requirement is a quota which requires an actor to install a certain share of a clean good or service. Example: parking lot owner must install at least 1 EV charger per 10 parking spaces; 100% of new rented buildings must have solar panels."
+      },
+      "superClasses": [
+        "102"
+      ]
+    },
+    {
+      "id": "104",
+      "iri": "http://example.org/ontology#Smart_meter_requirement%3A_A_smart_meter_requirement_is_an_installation_requirement_that_mandates_the_installation_of_smart_meters_to_improve_electricity_grid_management_(Own_addition%3A_see_https%3A%2F%2Fwww.smart-energy.com%2Fregional-news%2Feurope-uk%2Fgermany-mandates-smart-metering-from-2025)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Smart meter requirement: A smart meter requirement is an installation requirement that mandates the installation of smart meters to improve electricity grid management (Own addition: see https://www.smart-energy.com/regional-news/europe-uk/germany-mandates-smart-metering-from-2025)",
+        "undefined": "Smart meter requirement: A smart meter requirement is an installation requirement that mandates the installation of smart meters to improve electricity grid management (Own addition: see https://www.smart-energy.com/regional-news/europe-uk/germany-mandates-smart-metering-from-2025)"
+      },
+      "superClasses": [
+        "103"
+      ]
+    },
+    {
+      "id": "105",
+      "iri": "http://example.org/ontology#PV_installation_requirement%3A_A_PV_installation_requirement_is_an_installation_requirement_that_sets_requirements_for_installing_solar_PV_systems._Example%3A_PV_panels_must_be_installed_on_new_buildings%2C_renovated_roofs%2C_or_parking_garages_(OWN_ADDITION)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "PV installation requirement: A PV installation requirement is an installation requirement that sets requirements for installing solar PV systems. Example: PV panels must be installed on new buildings, renovated roofs, or parking garages (OWN ADDITION)",
+        "undefined": "PV installation requirement: A PV installation requirement is an installation requirement that sets requirements for installing solar PV systems. Example: PV panels must be installed on new buildings, renovated roofs, or parking garages (OWN ADDITION)"
+      },
+      "superClasses": [
+        "103"
+      ]
+    },
+    {
+      "id": "106",
+      "iri": "http://example.org/ontology#EV_charging_installation_requirement%3A_An_EV_charging_installation_requirement_is_an_installation_requirement_that_sets_requirements_for_installing_EV_charging_stations._Example%3A_1_in_10_parking_spaces_must_include_EV_charging_stations_(OWN_ADDITION)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "EV charging installation requirement: An EV charging installation requirement is an installation requirement that sets requirements for installing EV charging stations. Example: 1 in 10 parking spaces must include EV charging stations (OWN ADDITION)",
+        "undefined": "EV charging installation requirement: An EV charging installation requirement is an installation requirement that sets requirements for installing EV charging stations. Example: 1 in 10 parking spaces must include EV charging stations (OWN ADDITION)"
+      },
+      "superClasses": [
+        "103"
+      ]
+    },
+    {
+      "id": "107",
+      "iri": "http://example.org/ontology#Storage_requirement%3A_A_storage_requirement_is_an_installation_requirement_that_sets_requirements_for_actors_to_install_energy_storage_capacities._Example%3A_a_person_who_installs_a_solar_PV_system_must_also_install_a_battery_storage_unit._(OWN_ADDITION)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Storage requirement: A storage requirement is an installation requirement that sets requirements for actors to install energy storage capacities. Example: a person who installs a solar PV system must also install a battery storage unit. (OWN ADDITION)",
+        "undefined": "Storage requirement: A storage requirement is an installation requirement that sets requirements for actors to install energy storage capacities. Example: a person who installs a solar PV system must also install a battery storage unit. (OWN ADDITION)"
+      },
+      "superClasses": [
+        "103"
+      ]
+    },
+    {
+      "id": "108",
+      "iri": "http://example.org/ontology#Public_procurement_standards%3A_a_standard_set_by_governments_for_public_goods._For_example%2C_the_government_sets_a_standard_that_any_vehicles_purchased_by_public_actors_must_meet_certain_emissions_threshholds_(own_addition).",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Public procurement standards: a standard set by governments for public goods. For example, the government sets a standard that any vehicles purchased by public actors must meet certain emissions threshholds (own addition).",
+        "undefined": "Public procurement standards: a standard set by governments for public goods. For example, the government sets a standard that any vehicles purchased by public actors must meet certain emissions threshholds (own addition)."
+      },
+      "superClasses": [
+        "80"
+      ]
+    },
+    {
+      "id": "109",
+      "iri": "http://example.org/ontology#Tendering_scheme_standards_(or_auction_standards)%3A_A_tendering_scheme_standard_is_the_standards_set_for_bidding_competition_for_potential_providers_of_a_required_good_or_service_aimed_at_reducing_provision_costs%2C_e.g.%2C_through_auctions._This_can_be_tied_to_economic_policy_instruments_such_as_FITs_(CPDB%2C_moved_from_section_%22Economic-Fiscal_and_Financial_incentives%22%2C_tweaked_slightly_for_OEO)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Tendering scheme standards (or auction standards): A tendering scheme standard is the standards set for bidding competition for potential providers of a required good or service aimed at reducing provision costs, e.g., through auctions. This can be tied to economic policy instruments such as FITs (CPDB, moved from section \"Economic-Fiscal and Financial incentives\", tweaked slightly for OEO)",
+        "undefined": "Tendering scheme standards (or auction standards): A tendering scheme standard is the standards set for bidding competition for potential providers of a required good or service aimed at reducing provision costs, e.g., through auctions. This can be tied to economic policy instruments such as FITs (CPDB, moved from section \"Economic-Fiscal and Financial incentives\", tweaked slightly for OEO)"
+      },
+      "superClasses": [
+        "80"
+      ]
+    },
+    {
+      "id": "110",
+      "iri": "http://example.org/ontology#Offsetting_rules%3A_offsetting_rules_are_standards_which_establish_GHG_emission_reductions_crediting_and_offsetting_regulations_(CPDB%2C_split_between_this_definition_and_market_above)._Example%3A_rules_that_prohibit_using_offsetting_as_part_of_emissions_calculations.",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Offsetting rules: offsetting rules are standards which establish GHG emission reductions crediting and offsetting regulations (CPDB, split between this definition and market above). Example: rules that prohibit using offsetting as part of emissions calculations.",
+        "undefined": "Offsetting rules: offsetting rules are standards which establish GHG emission reductions crediting and offsetting regulations (CPDB, split between this definition and market above). Example: rules that prohibit using offsetting as part of emissions calculations."
+      },
+      "superClasses": [
+        "80"
+      ]
+    },
+    {
+      "id": "111",
+      "iri": "http://example.org/ontology#Disclosure_standard_(or_disclosure_obligation)%3A_Disclosure_standards_are_standards_that_require_an_actor_to_publicly_disclose_and_substantiate_claims_on_environmental_impacts_(own_definition%3B_exists_in_CPR%2C_but_we_have_moved_it_to_sub-section_%22standards%22_whereas_it_is_stand-alone_in_CPR)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Disclosure standard (or disclosure obligation): Disclosure standards are standards that require an actor to publicly disclose and substantiate claims on environmental impacts (own definition; exists in CPR, but we have moved it to sub-section \"standards\" whereas it is stand-alone in CPR)",
+        "undefined": "Disclosure standard (or disclosure obligation): Disclosure standards are standards that require an actor to publicly disclose and substantiate claims on environmental impacts (own definition; exists in CPR, but we have moved it to sub-section \"standards\" whereas it is stand-alone in CPR)"
+      },
+      "superClasses": [
+        "80",
+        "80"
+      ]
+    },
+    {
+      "id": "112",
+      "iri": "http://example.org/ontology#Comparison_label_standard%3A_A_comparison_label_standard_is_a_disclosure_standard_which_requires_producers_to_partipate_in_consumer-oriented_labelling_schemes._These_schemes_provide_a_rating_of_a_certain_good_or_service_against_a_pre-determined_scale%2C_allowing_for_a_comparison_across_products_(CPDB_(originally_in_information_and_education_category)%2C_moved_into_subcategory_disclosure_obligations_and_tweaked_for_OEO)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Comparison label standard: A comparison label standard is a disclosure standard which requires producers to partipate in consumer-oriented labelling schemes. These schemes provide a rating of a certain good or service against a pre-determined scale, allowing for a comparison across products (CPDB (originally in information and education category), moved into subcategory disclosure obligations and tweaked for OEO)",
+        "undefined": "Comparison label standard: A comparison label standard is a disclosure standard which requires producers to partipate in consumer-oriented labelling schemes. These schemes provide a rating of a certain good or service against a pre-determined scale, allowing for a comparison across products (CPDB (originally in information and education category), moved into subcategory disclosure obligations and tweaked for OEO)"
+      },
+      "superClasses": [
+        "111"
+      ]
+    },
+    {
+      "id": "113",
+      "iri": "http://example.org/ontology#Labeling_standard_for_buildings%3A_A_labeling_standard_for_buildings_is_a_disclosure_standard_for_landlords_and%2For_sellers_to_provide_information_on_a_property's_energy_efficiency_(extrapolated_from_'removal_of_split_incentives'%2C_CPDB)_%5BAll_linked_to_EU_policies_like_Energy_Performance_of_Buildings_Directive%3B_see_in_Castellazzi_et_al._2017%5D",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Labeling standard for buildings: A labeling standard for buildings is a disclosure standard for landlords and/or sellers to provide information on a property's energy efficiency (extrapolated from 'removal of split incentives', CPDB) [All linked to EU policies like Energy Performance of Buildings Directive; see in Castellazzi et al. 2017]",
+        "undefined": "Labeling standard for buildings: A labeling standard for buildings is a disclosure standard for landlords and/or sellers to provide information on a property's energy efficiency (extrapolated from 'removal of split incentives', CPDB) [All linked to EU policies like Energy Performance of Buildings Directive; see in Castellazzi et al. 2017]"
+      },
+      "superClasses": [
+        "111"
+      ]
+    },
+    {
+      "id": "114",
+      "iri": "http://example.org/ontology#Financial_disclosure_standard%3A_A_financial_disclosure_standard_is_a_disclosure_standard_which_requires_companies_to_disclose_how_the_transition_risks_from_shifting_to_a_low-carbon_economy_and_physical_climate_change_impacts_may_affect_their_business_or_asset_values._Example%3A_EU_SFDR._(own_addition_via_IPCC_2022_but_slightly_tweaked).",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Financial disclosure standard: A financial disclosure standard is a disclosure standard which requires companies to disclose how the transition risks from shifting to a low-carbon economy and physical climate change impacts may affect their business or asset values. Example: EU SFDR. (own addition via IPCC 2022 but slightly tweaked).",
+        "undefined": "Financial disclosure standard: A financial disclosure standard is a disclosure standard which requires companies to disclose how the transition risks from shifting to a low-carbon economy and physical climate change impacts may affect their business or asset values. Example: EU SFDR. (own addition via IPCC 2022 but slightly tweaked)."
+      },
+      "superClasses": [
+        "111"
+      ]
+    },
+    {
+      "id": "115",
+      "iri": "http://example.org/ontology#Supply_chain_disclosure_standard%3A_A_supply_chain_disclosure_standard_is_a_disclosure_standard_that_requires_firms_to_disclose_information_on_the_risks_and_opportunities_arising_from_environmental_issues%2C_and_on_the_impact_of_their_activities_the_environment._Example%3A_EU_CSRD._(own_addition_via_EU)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Supply chain disclosure standard: A supply chain disclosure standard is a disclosure standard that requires firms to disclose information on the risks and opportunities arising from environmental issues, and on the impact of their activities the environment. Example: EU CSRD. (own addition via EU)",
+        "undefined": "Supply chain disclosure standard: A supply chain disclosure standard is a disclosure standard that requires firms to disclose information on the risks and opportunities arising from environmental issues, and on the impact of their activities the environment. Example: EU CSRD. (own addition via EU)"
+      },
+      "superClasses": [
+        "111"
+      ]
+    },
+    {
+      "id": "116",
+      "iri": "http://example.org/ontology#Due_diligence_obligation%3A_A_due_diligence_obligation_is_a_standard_requiring_companies_to_identify_and_address_potential_and_actual_adverse_environmental_impacts_in_the_company%E2%80%99s_operations_(Example%3A_French_%22corporate_vigilance%22_law)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Due diligence obligation: A due diligence obligation is a standard requiring companies to identify and address potential and actual adverse environmental impacts in the company’s operations (Example: French \"corporate vigilance\" law)",
+        "undefined": "Due diligence obligation: A due diligence obligation is a standard requiring companies to identify and address potential and actual adverse environmental impacts in the company’s operations (Example: French \"corporate vigilance\" law)"
+      },
+      "superClasses": [
+        "80"
+      ]
+    },
+    {
+      "id": "117",
+      "iri": "http://example.org/ontology#Supply_chain_due_diligence_obligations%3A_Supply_chain_due_diligence_obligations_are_due_diligence_obligations_for_companies_to_address_sustainability_risks_not_only_their_own_operations%2C_but_also_their_subsidiaries_and_business_partners._See_for_example_the_EU_Corporate_sustainability_due_diligence_directive_(CSDDD)_(Own_addition%3A_see_example_https%3A%2F%2Fwww.csr-in-deutschland.de%2FEN%2FBusiness-Human-Rights%2FSupply-Chain-Act%2Fsupply-chain-act.html_and_https%3A%2F%2Fcommission.europa.eu%2Fbusiness-economy-euro%2Fdoing-business-eu%2Fsustainability-due-diligence-responsible-business%2Fcorporate-sustainability-due-diligence_en)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Supply chain due diligence obligations: Supply chain due diligence obligations are due diligence obligations for companies to address sustainability risks not only their own operations, but also their subsidiaries and business partners. See for example the EU Corporate sustainability due diligence directive (CSDDD) (Own addition: see example https://www.csr-in-deutschland.de/EN/Business-Human-Rights/Supply-Chain-Act/supply-chain-act.html and https://commission.europa.eu/business-economy-euro/doing-business-eu/sustainability-due-diligence-responsible-business/corporate-sustainability-due-diligence_en)",
+        "undefined": "Supply chain due diligence obligations: Supply chain due diligence obligations are due diligence obligations for companies to address sustainability risks not only their own operations, but also their subsidiaries and business partners. See for example the EU Corporate sustainability due diligence directive (CSDDD) (Own addition: see example https://www.csr-in-deutschland.de/EN/Business-Human-Rights/Supply-Chain-Act/supply-chain-act.html and https://commission.europa.eu/business-economy-euro/doing-business-eu/sustainability-due-diligence-responsible-business/corporate-sustainability-due-diligence_en)"
+      },
+      "superClasses": [
+        "116"
+      ]
+    },
+    {
+      "id": "118",
+      "iri": "http://example.org/ontology#Market_design_regulation%3A_Market_design_regulation_is_a_regulatory_policy_instrument_that_sets_out_the_permitted_roles_and_interaction_procedures_for_market_actors%2C_including_who_can_participate_and_how_prices_are_determined_%5Bown_addition_and_definition%5D.",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Market design regulation: Market design regulation is a regulatory policy instrument that sets out the permitted roles and interaction procedures for market actors, including who can participate and how prices are determined [own addition and definition].",
+        "undefined": "Market design regulation: Market design regulation is a regulatory policy instrument that sets out the permitted roles and interaction procedures for market actors, including who can participate and how prices are determined [own addition and definition]."
+      },
+      "superClasses": [
+        "66"
+      ]
+    },
+    {
+      "id": "119",
+      "iri": "http://example.org/ontology#Grid_access_and_priority_for_renewables%3A_Grid_access_and_priority_for_renewables_is_a_market_design_regulation_that_gives_priority_to_renewable_energy_production_and_guarantees_full_purchase_of_their_electricity_(CPDB%2C_moved_from_Section_%22Barrier_removal%22)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Grid access and priority for renewables: Grid access and priority for renewables is a market design regulation that gives priority to renewable energy production and guarantees full purchase of their electricity (CPDB, moved from Section \"Barrier removal\")",
+        "undefined": "Grid access and priority for renewables: Grid access and priority for renewables is a market design regulation that gives priority to renewable energy production and guarantees full purchase of their electricity (CPDB, moved from Section \"Barrier removal\")"
+      },
+      "superClasses": [
+        "118"
+      ]
+    },
+    {
+      "id": "120",
+      "iri": "http://example.org/ontology#Market_design_regulation%3A_Market_design_regulation_is_a_regulatory_policy_instrument_that_sets_out_the_permitted_roles_and_interaction_procedures_for_markets%2C_including_who_can_participate_and_how_prices_are_determined_%5Bown_addition_and_definition%5D.",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Market design regulation: Market design regulation is a regulatory policy instrument that sets out the permitted roles and interaction procedures for markets, including who can participate and how prices are determined [own addition and definition].",
+        "undefined": "Market design regulation: Market design regulation is a regulatory policy instrument that sets out the permitted roles and interaction procedures for markets, including who can participate and how prices are determined [own addition and definition]."
+      },
+      "superClasses": [
+        "66"
+      ]
+    },
+    {
+      "id": "121",
+      "iri": "http://example.org/ontology#Rule_on_integrating_controllable_devices%3A_A_rule_on_integrating_controllable_devices_is_a_market_design_regulation_for_the_interactions_between_grid_operators_and_controllable_consumer_devices._Example%3A_grid_operators_cannot_refuse_connection_of_a_heat_pump%2C_but_they_may_be_allowed_to_switch_off_the_device_if_there_is_an_acute_threat_of_overloading_their_networks._(Own_addition_-_see_https%3A%2F%2Fwww.bundesnetzagentur.de%2FSharedDocs%2FPressemitteilungen%2FEN%2F2023%2F20231127_14a.html_)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Rule on integrating controllable devices: A rule on integrating controllable devices is a market design regulation for the interactions between grid operators and controllable consumer devices. Example: grid operators cannot refuse connection of a heat pump, but they may be allowed to switch off the device if there is an acute threat of overloading their networks. (Own addition  - see https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/EN/2023/20231127_14a.html )",
+        "undefined": "Rule on integrating controllable devices: A rule on integrating controllable devices is a market design regulation for the interactions between grid operators and controllable consumer devices. Example: grid operators cannot refuse connection of a heat pump, but they may be allowed to switch off the device if there is an acute threat of overloading their networks. (Own addition  - see https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/EN/2023/20231127_14a.html )"
+      },
+      "superClasses": [
+        "120"
+      ]
+    },
+    {
+      "id": "122",
+      "iri": "http://example.org/ontology#Rules_on_dynamic_pricing%3A_Rules_on_dynamic_pricing_is_a_market_design_regulation_which_allows_for_dynamic_pricing%2C_setting_electricity_prices_for_consumers_to_reflect_the_price_variation_at_the_spot_markets._(Own_addition)_https%3A%2F%2Fwww.ceer.eu%2Fpublication%2Fceer-recommendations-on-dynamic-price-implementation%2F",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Rules on dynamic pricing: Rules on dynamic pricing is a market design regulation which allows for dynamic pricing, setting electricity prices for consumers to reflect the\nprice variation at the spot markets. (Own addition) https://www.ceer.eu/publication/ceer-recommendations-on-dynamic-price-implementation/",
+        "undefined": "Rules on dynamic pricing: Rules on dynamic pricing is a market design regulation which allows for dynamic pricing, setting electricity prices for consumers to reflect the\nprice variation at the spot markets. (Own addition) https://www.ceer.eu/publication/ceer-recommendations-on-dynamic-price-implementation/"
+      },
+      "superClasses": [
+        "120"
+      ]
+    },
+    {
+      "id": "123",
+      "iri": "http://example.org/ontology#Independent_power_production_policy%3A_an_independent_power_production_policy_is_a_market_design_regulation_which_allows_non-governmental_actors_to_generate_electricity._(Own_addition)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Independent power production policy: an independent power production policy is a market design regulation which allows non-governmental actors to generate electricity. (Own addition)",
+        "undefined": "Independent power production policy: an independent power production policy is a market design regulation which allows non-governmental actors to generate electricity. (Own addition)"
+      },
+      "superClasses": [
+        "120"
+      ]
+    },
+    {
+      "id": "124",
+      "iri": "http://example.org/ontology#Self-consumption_policy%3A_A_self-consumption_policy_is_a_market_design_regulation_which_allows_individuals_to_produce_and_consume_their_own_power.",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Self-consumption policy: A self-consumption policy is a market design regulation which allows individuals to produce and consume their own power.",
+        "undefined": "Self-consumption policy: A self-consumption policy is a market design regulation which allows individuals to produce and consume their own power."
+      },
+      "superClasses": [
+        "120"
+      ]
+    },
+    {
+      "id": "125",
+      "iri": "http://example.org/ontology#Power_selling_regulations_(power_purchase_agreement)%3A_A_power_selling_regulation_is_a_market_design_regulation_that_allows_independent_power_producers_to_sell_electricity_to_others_actors._Example%3A_A_company_sells_electricity_directly_to_a_data_center%2C_rather_than_to_a_utility_(own_addition%3B_see_https%3A%2F%2Fwww.clarke-energy.com%2Fapplications%2Findependent-power-producers%2F_)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Power selling regulations (power purchase agreement): A power selling regulation is a market design regulation that allows independent power producers to sell electricity to others actors. Example: A company sells electricity directly to a data center, rather than to a utility (own addition; see https://www.clarke-energy.com/applications/independent-power-producers/ )",
+        "undefined": "Power selling regulations (power purchase agreement): A power selling regulation is a market design regulation that allows independent power producers to sell electricity to others actors. Example: A company sells electricity directly to a data center, rather than to a utility (own addition; see https://www.clarke-energy.com/applications/independent-power-producers/ )"
+      },
+      "superClasses": [
+        "120"
+      ]
+    },
+    {
+      "id": "126",
+      "iri": "http://example.org/ontology#Net_metering_%2F_net_billing_policy%3A_A_net_metering_policy_is_a_market_design_regulation_which_allows_consumers_who_generate_their_own_electricity_to_also_buy_and_sell_electricity_from_the_grid._See_for_example%3A_https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS0960148119301004",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Net metering / net billing policy: A net metering policy is a market design regulation which allows consumers who generate their own electricity to also buy and sell electricity from the grid. See for example: https://www.sciencedirect.com/science/article/pii/S0960148119301004",
+        "undefined": "Net metering / net billing policy: A net metering policy is a market design regulation which allows consumers who generate their own electricity to also buy and sell electricity from the grid. See for example: https://www.sciencedirect.com/science/article/pii/S0960148119301004"
+      },
+      "superClasses": [
+        "120"
+      ]
+    },
+    {
+      "id": "127",
+      "iri": "http://example.org/ontology#Citizen_financial_participation%3A_Citizen_financial_participation_is_a_market_design_regulation_which_allows_residents_and_communes_to_become_partial_owners_of_energy_assets_(OWN_ADDITION)._See_for_example_https%3A%2F%2Fwww.researchgate.net%2Fpublication%2F371389707_Prufung_einer_Landesregelung_zur_finanziellen_Be-_teiligung_an_Windenergieanlagen_an_Land_fur_den_Freistaat_Sachsen_Executive_Summary",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Citizen financial participation: Citizen financial participation is a market design regulation which allows residents and communes to become partial owners of energy assets (OWN ADDITION). See for example https://www.researchgate.net/publication/371389707_Prufung_einer_Landesregelung_zur_finanziellen_Be-_teiligung_an_Windenergieanlagen_an_Land_fur_den_Freistaat_Sachsen_Executive_Summary",
+        "undefined": "Citizen financial participation: Citizen financial participation is a market design regulation which allows residents and communes to become partial owners of energy assets (OWN ADDITION). See for example https://www.researchgate.net/publication/371389707_Prufung_einer_Landesregelung_zur_finanziellen_Be-_teiligung_an_Windenergieanlagen_an_Land_fur_den_Freistaat_Sachsen_Executive_Summary"
+      },
+      "superClasses": [
+        "120"
+      ]
+    },
+    {
+      "id": "128",
+      "iri": "http://example.org/ontology#Institutional_creation%3A_Institutional_creation_is_a_regulatory_policy_instrument_creating_institutions._Example%3A_creation_of_a_new_government_agency_or_body_(CPDB%2C_moved_from_section_%22Policy_Support%22_and_tweaked_slightly)_%2F_similar_to_%22Institutional_Mandates%22_in_CPR)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Institutional creation: Institutional creation is a regulatory policy instrument creating institutions. Example: creation of a new government agency or body (CPDB, moved from section \"Policy Support\" and tweaked slightly) / similar to \"Institutional Mandates\" in CPR)",
+        "undefined": "Institutional creation: Institutional creation is a regulatory policy instrument creating institutions. Example: creation of a new government agency or body (CPDB, moved from section \"Policy Support\" and tweaked slightly) / similar to \"Institutional Mandates\" in CPR)"
+      },
+      "superClasses": [
+        "66"
+      ]
+    },
+    {
+      "id": "129",
+      "iri": "http://example.org/ontology#Auditing_institution%3A_An_auditing_institution_is_an_institution_created_to_enforce_compliances_with_established_governmental_rules_and_standards_(CPDB%2C_moved_from_section_%22Regulatory-Codes_and_standards%22_with_slight_language_tweaks)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Auditing institution: An auditing institution is an institution created to enforce compliances with established governmental rules and standards (CPDB, moved from section \"Regulatory-Codes and standards\" with slight language tweaks)",
+        "undefined": "Auditing institution: An auditing institution is an institution created to enforce compliances with established governmental rules and standards (CPDB, moved from section \"Regulatory-Codes and standards\" with slight language tweaks)"
+      },
+      "superClasses": [
+        "128"
+      ]
+    },
+    {
+      "id": "130",
+      "iri": "http://example.org/ontology#Monitoring_institution%3A_A_monitoring_institution_is_an_institution_created_to_continuously_and_systematically_collect_of_data_to_supervise_specific_activities_for_evaluation_and_enforcement_purposes_(CPDB%2C_slightly_tweaked)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Monitoring institution: A monitoring institution is an institution created to continuously and systematically collect of data to supervise specific activities for evaluation and enforcement purposes (CPDB, slightly tweaked)",
+        "undefined": "Monitoring institution: A monitoring institution is an institution created to continuously and systematically collect of data to supervise specific activities for evaluation and enforcement purposes (CPDB, slightly tweaked)"
+      },
+      "superClasses": [
+        "128"
+      ]
+    },
+    {
+      "id": "131",
+      "iri": "http://example.org/ontology#MRV_of_emissions%3A_A_Measurement%2C_Reporting_and_Verification_(MRV)_monitoring_institution_establishes_systems_for_the_measurement%2C_reporting%2C_and_verification_of_emissions_data_to_ensure_its_veracity%2C_consistency_and_compliance_with_reporting_requirements_(suggested_by_CPR%3B_own_definition_based_on_paraphrase_of_https%3A%2F%2Funece.org%2Fmonitoring-reporting-and-verification-mrv)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "MRV of emissions: A Measurement, Reporting and Verification (MRV) monitoring institution establishes systems for the measurement, reporting, and verification of emissions data to ensure its veracity, consistency and compliance with reporting requirements (suggested by CPR; own definition based on paraphrase of https://unece.org/monitoring-reporting-and-verification-mrv)",
+        "undefined": "MRV of emissions: A Measurement, Reporting and Verification (MRV) monitoring institution establishes systems for the measurement, reporting, and verification of emissions data to ensure its veracity, consistency and compliance with reporting requirements (suggested by CPR; own definition based on paraphrase of https://unece.org/monitoring-reporting-and-verification-mrv)"
+      },
+      "superClasses": [
+        "130"
+      ]
+    },
+    {
+      "id": "132",
+      "iri": "http://example.org/ontology#Coordinating_body_for_climate_strategy%3A_A_coordinating_body_for_climate_strategy_is_an_institution_created_to_regulate_and_monitor_climate_change_responses_and_strategies_(from_CPDB%2C_moved_from_Section_%22Climate_Strategy%22_and_slightly_changed_wording)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Coordinating body for climate strategy: A coordinating body for climate strategy is an institution created to regulate and monitor climate change responses and strategies (from CPDB, moved from Section \"Climate Strategy\" and slightly changed wording)",
+        "undefined": "Coordinating body for climate strategy: A coordinating body for climate strategy is an institution created to regulate and monitor climate change responses and strategies (from CPDB, moved from Section \"Climate Strategy\" and slightly changed wording)"
+      },
+      "superClasses": [
+        "128"
+      ]
+    },
+    {
+      "id": "133",
+      "iri": "http://example.org/ontology#Independent_advisory_body%3A_A_Independent_advisory_body_is_an_institution_created_to_provide_evidence_and_analysis_from_which_government_actors_can_build_strategies_and_plans_(new_addition%2C_via_Kate_from_CPR)._Example%3A_UK_Climate_Change_Committee_https%3A%2F%2Fwww.lse.ac.uk%2Fgranthaminstitute%2Fnews%2Fwhy-the-uks-climate-change-committee-is-crucial-to-advancing-evidence-based-climate-policymaking%2F",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Independent advisory body: A Independent advisory body is an institution created to provide evidence and analysis from which government actors can build strategies and plans (new addition, via Kate from CPR). Example: UK Climate Change Committee https://www.lse.ac.uk/granthaminstitute/news/why-the-uks-climate-change-committee-is-crucial-to-advancing-evidence-based-climate-policymaking/",
+        "undefined": "Independent advisory body: A Independent advisory body is an institution created to provide evidence and analysis from which government actors can build strategies and plans (new addition, via Kate from CPR). Example: UK Climate Change Committee https://www.lse.ac.uk/granthaminstitute/news/why-the-uks-climate-change-committee-is-crucial-to-advancing-evidence-based-climate-policymaking/"
+      },
+      "superClasses": [
+        "128"
+      ]
+    },
+    {
+      "id": "134",
+      "iri": "http://example.org/ontology#Participation_scheme%3A_A_participation_scheme_is_an_institution_created_to_promote_the_involvement_of_subnational_entities_or_citizens_in_sustainability_governance_(adapted_from_CPR%2C_own_definition)._Example%3A_citizen_climate_assemblies%2C_see_https%3A%2F%2Fwww.knoca.eu%2Fclimate-assemblies",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Participation scheme: A participation scheme is an institution created to promote the involvement of subnational entities or citizens in sustainability governance (adapted from CPR, own definition). Example: citizen climate assemblies, see https://www.knoca.eu/climate-assemblies",
+        "undefined": "Participation scheme: A participation scheme is an institution created to promote the involvement of subnational entities or citizens in sustainability governance (adapted from CPR, own definition). Example: citizen climate assemblies, see https://www.knoca.eu/climate-assemblies"
+      },
+      "superClasses": [
+        "128"
+      ]
+    },
+    {
+      "id": "135",
+      "iri": "http://example.org/ontology#Strategic_planning_process%3A_A_strategic_planning_process_is_the_institutionalization_of_processes_to_set_strategic_direction_and_roadmaps_for_specific_sectors_or_for_the_economy_as_a_whole_(CPDB%2C_changed_slightly_on_advice_of_CPR).",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Strategic planning process: A strategic planning process is the institutionalization of processes to set strategic direction and roadmaps for specific sectors or for the economy as a whole (CPDB, changed slightly on advice of CPR).",
+        "undefined": "Strategic planning process: A strategic planning process is the institutionalization of processes to set strategic direction and roadmaps for specific sectors or for the economy as a whole (CPDB, changed slightly on advice of CPR)."
+      },
+      "superClasses": [
+        "128"
+      ]
+    },
+    {
+      "id": "136",
+      "iri": "http://example.org/ontology#Institutional_creation%3A_Institutional_creation_is_a_regulatory_policy_instrument_creating_institutions._Example%3A_creation_of_a_new_government_agency_(CPDB%2C_moved_from_section_%22Policy_Support%22_and_tweaked_slightly)_%2F_similar_to_%22Institutional_Mandates%22_in_CPR)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Institutional creation: Institutional creation is a regulatory policy instrument creating institutions. Example: creation of a new government agency (CPDB, moved from section \"Policy Support\" and tweaked slightly) / similar to \"Institutional Mandates\" in CPR)",
+        "undefined": "Institutional creation: Institutional creation is a regulatory policy instrument creating institutions. Example: creation of a new government agency (CPDB, moved from section \"Policy Support\" and tweaked slightly) / similar to \"Institutional Mandates\" in CPR)"
+      },
+      "superClasses": [
+        "66"
+      ]
+    },
+    {
+      "id": "137",
+      "iri": "http://example.org/ontology#Climate_fund%3A_A_climate_fund_is_an_institution_created_to_provide_the_establishment_of_specific_funding_agencies_or_mechanisms_for_climate_issues._Example%3A_independent_domestic_agencies_for_climate_finance_https%3A%2F%2Fwww.iea.org%2Fpolicies%2F14055-government-investment-in-decarbonising-industry-fund-gidi.",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Climate fund: A climate fund is an institution created to provide the establishment of specific funding agencies or mechanisms for climate issues. Example: independent domestic agencies for climate finance  https://www.iea.org/policies/14055-government-investment-in-decarbonising-industry-fund-gidi.",
+        "undefined": "Climate fund: A climate fund is an institution created to provide the establishment of specific funding agencies or mechanisms for climate issues. Example: independent domestic agencies for climate finance  https://www.iea.org/policies/14055-government-investment-in-decarbonising-industry-fund-gidi."
+      },
+      "superClasses": [
+        "136"
+      ]
+    },
+    {
+      "id": "138",
+      "iri": "http://example.org/ontology#Voluntary_instrument%3A_A_policy_instrument_where_government_acts_in_a_coordinating_role%2C_but_not_as_a_central_designer_and_implementer_of_policies%3B_measures_may_be_initiated_by_governments%2C_but_also_non-state_actors_such_as_firms_or_NGOs_(IPCC_2018%2C_see_especially_p._95).",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Voluntary instrument: A policy instrument where government acts in a coordinating role, but not as a central designer and implementer of policies; measures may be initiated by governments, but also non-state actors such as firms or NGOs (IPCC 2018, see especially p. 95).",
+        "undefined": "Voluntary instrument: A policy instrument where government acts in a coordinating role, but not as a central designer and implementer of policies; measures may be initiated by governments, but also non-state actors such as firms or NGOs (IPCC 2018, see especially p. 95)."
+      },
+      "superClasses": [
+        "18"
+      ]
+    },
+    {
+      "id": "139",
+      "iri": "http://example.org/ontology#Public_voluntary_scheme%3A_A_public_voluntary_scheme_is_a_voluntary_measure_where_industries_and_firms_can_choose_whether_or_not_to_comply_with_a_program_or_performance_criteria_developed_by_a_regulator._Major_examples_of_public_voluntary_schemes_include_eco-labels_that_are_granted_by_governments_to_firms_that_comply_with_certain_environmental_standards%2C_such_as_the_German_Blue_Angel%2C_Nordic_Swan%2C_or_US_Energy_Star.",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Public voluntary scheme: A public voluntary scheme is a voluntary measure where industries and firms can choose whether or not to comply with a program or performance criteria developed by a regulator. Major examples of public voluntary schemes include eco-labels that are granted by governments to firms that comply with certain environmental standards, such as the German Blue Angel, Nordic Swan, or US Energy Star.",
+        "undefined": "Public voluntary scheme: A public voluntary scheme is a voluntary measure where industries and firms can choose whether or not to comply with a program or performance criteria developed by a regulator. Major examples of public voluntary schemes include eco-labels that are granted by governments to firms that comply with certain environmental standards, such as the German Blue Angel, Nordic Swan, or US Energy Star."
+      },
+      "superClasses": [
+        "138"
+      ]
+    },
+    {
+      "id": "140",
+      "iri": "http://example.org/ontology#Negotiated_agreement_between_the_public_and_private_sector%3A_A_negotiated_agreement_between_the_public_and_private_sector_is_a_voluntary_measure_where_governments_and_the_private_sector_establish_a_set_of_targets_for_environmental_issues_(Penasco_2021)._The_precise_terms_of_the_agreement_vary_in_terms_of_what_information_must_be_reported_and_how_this_is_audited%2C_whether_or_not_the_targets_are_legally_binding_etc._In_most_instances%2C_agreements_are_negotiated_to_avoid_direct_regulation_or_market-based_instruments_(Bailey_2008).",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Negotiated agreement between the public and private sector: A negotiated agreement between the public and private sector is a voluntary measure where governments and the private sector establish a set of targets for environmental issues (Penasco 2021). The precise terms of the agreement vary in terms of what information must be reported and how this is audited, whether or not the targets are legally binding etc. In most instances, agreements are negotiated to avoid direct regulation or market-based instruments  (Bailey 2008).",
+        "undefined": "Negotiated agreement between the public and private sector: A negotiated agreement between the public and private sector is a voluntary measure where governments and the private sector establish a set of targets for environmental issues (Penasco 2021). The precise terms of the agreement vary in terms of what information must be reported and how this is audited, whether or not the targets are legally binding etc. In most instances, agreements are negotiated to avoid direct regulation or market-based instruments  (Bailey 2008)."
+      },
+      "superClasses": [
+        "138"
+      ]
+    },
+    {
+      "id": "141",
+      "iri": "http://example.org/ontology#International_agreement%3A_A_negotiated_international_agreement_is_an_agreement_between_international_actors_which_sets_targets_for_environmental_issues%2C_to_which_other_actors_can_choose_to_commit._This_commitment_and_targets_can_be_binding_or_not._(Example%3A_the_Powering_Past_Coal_Alliance_led_by_the_UK_and_Canada%2C_where_joining_members_commit_to_accelerating_the_transition_from_coal_to_clean_energy_https%3A%2F%2Fpoweringpastcoal.org%2F)",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "International agreement: A negotiated international agreement is an agreement between international actors which sets targets for environmental issues, to which other actors can choose to commit. This commitment and targets can be binding or not. (Example: the Powering Past Coal Alliance led by the UK and Canada, where joining members commit to accelerating the transition from coal to clean energy https://poweringpastcoal.org/)",
+        "undefined": "International agreement: A negotiated international agreement is an agreement between international actors which sets targets for environmental issues, to which other actors can choose to commit. This commitment and targets can be binding or not. (Example: the Powering Past Coal Alliance led by the UK and Canada, where joining members commit to accelerating the transition from coal to clean energy https://poweringpastcoal.org/)"
+      },
+      "superClasses": [
+        "138"
+      ]
+    },
+    {
+      "id": "142",
+      "iri": "http://example.org/ontology#Public-private_partnership_(PPP)%3A_A_Public-private_partnership_is_a_voluntary_collaborative_relationship_between_various_parties%2C_both_state_and_non-state%2C_in_which_all_parties_work_together_to_achieve_a_common_purpose_or_specific_task_and_share_risks%2C_responsibilities%2C_resources%2C_and_benefits_(own_addition_-_the_definition_is_from_Kolati_and_Raghutla%2C_2023%2C_originally_cited_in_Hodge_and_Greve%2C_2011",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Public-private partnership (PPP): A Public-private partnership is a voluntary collaborative relationship between various parties, both state and non-state, in which all parties work together to achieve a common purpose or specific task and share risks, responsibilities, resources, and benefits (own addition - the definition is from Kolati and Raghutla, 2023, originally cited in Hodge and Greve, 2011",
+        "undefined": "Public-private partnership (PPP): A Public-private partnership is a voluntary collaborative relationship between various parties, both state and non-state, in which all parties work together to achieve a common purpose or specific task and share risks, responsibilities, resources, and benefits (own addition - the definition is from Kolati and Raghutla, 2023, originally cited in Hodge and Greve, 2011"
+      },
+      "superClasses": [
+        "138"
+      ]
+    },
+    {
+      "id": "143",
+      "iri": "http://example.org/ontology#Public_sector_mandate%3A_A_public_sector_mandate_is_a_standard_which_requires_public_bodies_to_consider_climate_goals_and_plans_in_their_decision-making._For_example%2C_ministry_actions_must_comply_with_sectoral_budget_ceilings._https%3A%2F%2Fwww.lse.ac.uk%2Fgranthaminstitute%2Fpublication%2Fimpacts-of-climate-framework-laws%2F",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Public sector mandate: A public sector mandate is a standard which requires public bodies to consider climate goals and plans in their decision-making. For example, ministry actions must comply with sectoral budget ceilings. https://www.lse.ac.uk/granthaminstitute/publication/impacts-of-climate-framework-laws/",
+        "undefined": "Public sector mandate: A public sector mandate is a standard which requires public bodies to consider climate goals and plans in their decision-making. For example, ministry actions must comply with sectoral budget ceilings. https://www.lse.ac.uk/granthaminstitute/publication/impacts-of-climate-framework-laws/"
+      },
+      "superClasses": [
+        "80"
+      ]
+    },
+    {
+      "id": "144",
+      "iri": "http://example.org/ontology#Green_advertisement_standards%3A_Green_advertisement_standards_are_disclosure_standards_on_companies_that_make_claims_about_their_environmental_impact_to_adhere_to_standards_which_may_include_disclosing_their_assessment_methodology%2C_verification_by_an_independent_third_party%2C_and_greenhouse_gas_offsetting_(own_definition)._Example%3A_EU_Green_Claims_Directive_https%3A%2F%2Fenvironment.ec.europa.eu%2Ftopics%2Fcircular-economy%2Fgreen-claims_en",
+      "baseIri": "http://example.org/ontology",
+      "label": {
+        "en": "Green advertisement standards: Green advertisement standards are disclosure standards on companies that make claims about their environmental impact to adhere to standards which may include disclosing their assessment methodology, verification by an independent third party, and greenhouse gas offsetting (own definition). Example: EU Green Claims Directive  https://environment.ec.europa.eu/topics/circular-economy/green-claims_en",
+        "undefined": "Green advertisement standards: Green advertisement standards are disclosure standards on companies that make claims about their environmental impact to adhere to standards which may include disclosing their assessment methodology, verification by an independent third party, and greenhouse gas offsetting (own definition). Example: EU Green Claims Directive  https://environment.ec.europa.eu/topics/circular-economy/green-claims_en"
+      },
+      "superClasses": [
+        "111"
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "1001",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1002",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1003",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1004",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1005",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1006",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1007",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1008",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1009",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1010",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1011",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1012",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1013",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1014",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1015",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1016",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1017",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1018",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1019",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1020",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1021",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1022",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1023",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1024",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1025",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1026",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1027",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1028",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1029",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1030",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1031",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1032",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1033",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1034",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1035",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1036",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1037",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1038",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1039",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1040",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1041",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1042",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1043",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1044",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1045",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1046",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1047",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1048",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1049",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1050",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1051",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1052",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1053",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1054",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1055",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1056",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1057",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1058",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1059",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1060",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1061",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1062",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1063",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1064",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1065",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1066",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1067",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1068",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1069",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1070",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1071",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1072",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1073",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1074",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1075",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1076",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1077",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1078",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1079",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1080",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1081",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1082",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1083",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1084",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1085",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1086",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1087",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1088",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1089",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1090",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1091",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1092",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1093",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1094",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1095",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1096",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1097",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1098",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1099",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1100",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1101",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1102",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1103",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1104",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1105",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1106",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1107",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1108",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1109",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1110",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1111",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1112",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1113",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1114",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1115",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1116",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1117",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1118",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1119",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1120",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1121",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1122",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1123",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1124",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1125",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1126",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1127",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1128",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1129",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1130",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1131",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1132",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1133",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1134",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1135",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1136",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1137",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1138",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1139",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1140",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1141",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1142",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1143",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1144",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1145",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1146",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1147",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1148",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1149",
+      "type": "rdfs:SubClassOf"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "1001",
+      "domain": "2",
+      "range": "1"
+    },
+    {
+      "id": "1002",
+      "domain": "3",
+      "range": "2"
+    },
+    {
+      "id": "1003",
+      "domain": "4",
+      "range": "3"
+    },
+    {
+      "id": "1004",
+      "domain": "5",
+      "range": "4"
+    },
+    {
+      "id": "1005",
+      "domain": "6",
+      "range": "1"
+    },
+    {
+      "id": "1006",
+      "domain": "7",
+      "range": "6"
+    },
+    {
+      "id": "1007",
+      "domain": "4",
+      "range": "7"
+    },
+    {
+      "id": "1008",
+      "domain": "8",
+      "range": "4"
+    },
+    {
+      "id": "1009",
+      "domain": "9",
+      "range": "4"
+    },
+    {
+      "id": "1010",
+      "domain": "10",
+      "range": "4"
+    },
+    {
+      "id": "1011",
+      "domain": "11",
+      "range": "4"
+    },
+    {
+      "id": "1012",
+      "domain": "12",
+      "range": "11"
+    },
+    {
+      "id": "1013",
+      "domain": "13",
+      "range": "4"
+    },
+    {
+      "id": "1014",
+      "domain": "14",
+      "range": "4"
+    },
+    {
+      "id": "1015",
+      "domain": "15",
+      "range": "6"
+    },
+    {
+      "id": "1016",
+      "domain": "16",
+      "range": "15"
+    },
+    {
+      "id": "1017",
+      "domain": "17",
+      "range": "16"
+    },
+    {
+      "id": "1018",
+      "domain": "18",
+      "range": "6"
+    },
+    {
+      "id": "1019",
+      "domain": "16",
+      "range": "18"
+    },
+    {
+      "id": "1020",
+      "domain": "19",
+      "range": "16"
+    },
+    {
+      "id": "1021",
+      "domain": "20",
+      "range": "19"
+    },
+    {
+      "id": "1022",
+      "domain": "21",
+      "range": "19"
+    },
+    {
+      "id": "1023",
+      "domain": "22",
+      "range": "19"
+    },
+    {
+      "id": "1024",
+      "domain": "23",
+      "range": "22"
+    },
+    {
+      "id": "1025",
+      "domain": "24",
+      "range": "18"
+    },
+    {
+      "id": "1026",
+      "domain": "25",
+      "range": "24"
+    },
+    {
+      "id": "1027",
+      "domain": "26",
+      "range": "25"
+    },
+    {
+      "id": "1028",
+      "domain": "27",
+      "range": "26"
+    },
+    {
+      "id": "1029",
+      "domain": "28",
+      "range": "26"
+    },
+    {
+      "id": "1030",
+      "domain": "29",
+      "range": "26"
+    },
+    {
+      "id": "1031",
+      "domain": "30",
+      "range": "26"
+    },
+    {
+      "id": "1032",
+      "domain": "31",
+      "range": "25"
+    },
+    {
+      "id": "1033",
+      "domain": "32",
+      "range": "25"
+    },
+    {
+      "id": "1034",
+      "domain": "33",
+      "range": "25"
+    },
+    {
+      "id": "1035",
+      "domain": "34",
+      "range": "25"
+    },
+    {
+      "id": "1036",
+      "domain": "35",
+      "range": "34"
+    },
+    {
+      "id": "1037",
+      "domain": "36",
+      "range": "35"
+    },
+    {
+      "id": "1038",
+      "domain": "37",
+      "range": "35"
+    },
+    {
+      "id": "1039",
+      "domain": "38",
+      "range": "35"
+    },
+    {
+      "id": "1040",
+      "domain": "39",
+      "range": "34"
+    },
+    {
+      "id": "1041",
+      "domain": "40",
+      "range": "39"
+    },
+    {
+      "id": "1042",
+      "domain": "41",
+      "range": "39"
+    },
+    {
+      "id": "1043",
+      "domain": "42",
+      "range": "25"
+    },
+    {
+      "id": "1044",
+      "domain": "43",
+      "range": "42"
+    },
+    {
+      "id": "1045",
+      "domain": "44",
+      "range": "42"
+    },
+    {
+      "id": "1046",
+      "domain": "45",
+      "range": "25"
+    },
+    {
+      "id": "1047",
+      "domain": "46",
+      "range": "45"
+    },
+    {
+      "id": "1048",
+      "domain": "47",
+      "range": "45"
+    },
+    {
+      "id": "1049",
+      "domain": "48",
+      "range": "45"
+    },
+    {
+      "id": "1050",
+      "domain": "49",
+      "range": "45"
+    },
+    {
+      "id": "1051",
+      "domain": "50",
+      "range": "45"
+    },
+    {
+      "id": "1052",
+      "domain": "51",
+      "range": "25"
+    },
+    {
+      "id": "1053",
+      "domain": "52",
+      "range": "51"
+    },
+    {
+      "id": "1054",
+      "domain": "53",
+      "range": "25"
+    },
+    {
+      "id": "1055",
+      "domain": "54",
+      "range": "25"
+    },
+    {
+      "id": "1056",
+      "domain": "55",
+      "range": "25"
+    },
+    {
+      "id": "1057",
+      "domain": "56",
+      "range": "24"
+    },
+    {
+      "id": "1058",
+      "domain": "57",
+      "range": "56"
+    },
+    {
+      "id": "1059",
+      "domain": "58",
+      "range": "24"
+    },
+    {
+      "id": "1060",
+      "domain": "59",
+      "range": "58"
+    },
+    {
+      "id": "1061",
+      "domain": "60",
+      "range": "58"
+    },
+    {
+      "id": "1062",
+      "domain": "61",
+      "range": "24"
+    },
+    {
+      "id": "1063",
+      "domain": "62",
+      "range": "61"
+    },
+    {
+      "id": "1064",
+      "domain": "63",
+      "range": "61"
+    },
+    {
+      "id": "1065",
+      "domain": "64",
+      "range": "61"
+    },
+    {
+      "id": "1066",
+      "domain": "65",
+      "range": "61"
+    },
+    {
+      "id": "1067",
+      "domain": "66",
+      "range": "18"
+    },
+    {
+      "id": "1068",
+      "domain": "67",
+      "range": "66"
+    },
+    {
+      "id": "1069",
+      "domain": "68",
+      "range": "67"
+    },
+    {
+      "id": "1070",
+      "domain": "69",
+      "range": "68"
+    },
+    {
+      "id": "1071",
+      "domain": "70",
+      "range": "68"
+    },
+    {
+      "id": "1072",
+      "domain": "71",
+      "range": "68"
+    },
+    {
+      "id": "1073",
+      "domain": "72",
+      "range": "71"
+    },
+    {
+      "id": "1074",
+      "domain": "73",
+      "range": "68"
+    },
+    {
+      "id": "1075",
+      "domain": "74",
+      "range": "68"
+    },
+    {
+      "id": "1076",
+      "domain": "75",
+      "range": "67"
+    },
+    {
+      "id": "1077",
+      "domain": "76",
+      "range": "75"
+    },
+    {
+      "id": "1078",
+      "domain": "77",
+      "range": "75"
+    },
+    {
+      "id": "1079",
+      "domain": "78",
+      "range": "75"
+    },
+    {
+      "id": "1080",
+      "domain": "79",
+      "range": "75"
+    },
+    {
+      "id": "1081",
+      "domain": "80",
+      "range": "66"
+    },
+    {
+      "id": "1082",
+      "domain": "81",
+      "range": "80"
+    },
+    {
+      "id": "1083",
+      "domain": "82",
+      "range": "81"
+    },
+    {
+      "id": "1084",
+      "domain": "83",
+      "range": "82"
+    },
+    {
+      "id": "1085",
+      "domain": "84",
+      "range": "82"
+    },
+    {
+      "id": "1086",
+      "domain": "85",
+      "range": "82"
+    },
+    {
+      "id": "1087",
+      "domain": "86",
+      "range": "82"
+    },
+    {
+      "id": "1088",
+      "domain": "87",
+      "range": "82"
+    },
+    {
+      "id": "1089",
+      "domain": "88",
+      "range": "82"
+    },
+    {
+      "id": "1090",
+      "domain": "89",
+      "range": "81"
+    },
+    {
+      "id": "1091",
+      "domain": "90",
+      "range": "89"
+    },
+    {
+      "id": "1092",
+      "domain": "91",
+      "range": "89"
+    },
+    {
+      "id": "1093",
+      "domain": "92",
+      "range": "89"
+    },
+    {
+      "id": "1094",
+      "domain": "93",
+      "range": "89"
+    },
+    {
+      "id": "1095",
+      "domain": "94",
+      "range": "89"
+    },
+    {
+      "id": "1096",
+      "domain": "95",
+      "range": "94"
+    },
+    {
+      "id": "1097",
+      "domain": "96",
+      "range": "89"
+    },
+    {
+      "id": "1098",
+      "domain": "97",
+      "range": "80"
+    },
+    {
+      "id": "1099",
+      "domain": "98",
+      "range": "97"
+    },
+    {
+      "id": "1100",
+      "domain": "99",
+      "range": "80"
+    },
+    {
+      "id": "1101",
+      "domain": "100",
+      "range": "99"
+    },
+    {
+      "id": "1102",
+      "domain": "101",
+      "range": "99"
+    },
+    {
+      "id": "1103",
+      "domain": "102",
+      "range": "80"
+    },
+    {
+      "id": "1104",
+      "domain": "103",
+      "range": "102"
+    },
+    {
+      "id": "1105",
+      "domain": "104",
+      "range": "103"
+    },
+    {
+      "id": "1106",
+      "domain": "105",
+      "range": "103"
+    },
+    {
+      "id": "1107",
+      "domain": "106",
+      "range": "103"
+    },
+    {
+      "id": "1108",
+      "domain": "107",
+      "range": "103"
+    },
+    {
+      "id": "1109",
+      "domain": "108",
+      "range": "80"
+    },
+    {
+      "id": "1110",
+      "domain": "109",
+      "range": "80"
+    },
+    {
+      "id": "1111",
+      "domain": "110",
+      "range": "80"
+    },
+    {
+      "id": "1112",
+      "domain": "111",
+      "range": "80"
+    },
+    {
+      "id": "1113",
+      "domain": "112",
+      "range": "111"
+    },
+    {
+      "id": "1114",
+      "domain": "113",
+      "range": "111"
+    },
+    {
+      "id": "1115",
+      "domain": "114",
+      "range": "111"
+    },
+    {
+      "id": "1116",
+      "domain": "115",
+      "range": "111"
+    },
+    {
+      "id": "1117",
+      "domain": "116",
+      "range": "80"
+    },
+    {
+      "id": "1118",
+      "domain": "117",
+      "range": "116"
+    },
+    {
+      "id": "1119",
+      "domain": "118",
+      "range": "66"
+    },
+    {
+      "id": "1120",
+      "domain": "119",
+      "range": "118"
+    },
+    {
+      "id": "1121",
+      "domain": "120",
+      "range": "66"
+    },
+    {
+      "id": "1122",
+      "domain": "121",
+      "range": "120"
+    },
+    {
+      "id": "1123",
+      "domain": "122",
+      "range": "120"
+    },
+    {
+      "id": "1124",
+      "domain": "123",
+      "range": "120"
+    },
+    {
+      "id": "1125",
+      "domain": "124",
+      "range": "120"
+    },
+    {
+      "id": "1126",
+      "domain": "125",
+      "range": "120"
+    },
+    {
+      "id": "1127",
+      "domain": "126",
+      "range": "120"
+    },
+    {
+      "id": "1128",
+      "domain": "127",
+      "range": "120"
+    },
+    {
+      "id": "1129",
+      "domain": "128",
+      "range": "66"
+    },
+    {
+      "id": "1130",
+      "domain": "129",
+      "range": "128"
+    },
+    {
+      "id": "1131",
+      "domain": "130",
+      "range": "128"
+    },
+    {
+      "id": "1132",
+      "domain": "131",
+      "range": "130"
+    },
+    {
+      "id": "1133",
+      "domain": "132",
+      "range": "128"
+    },
+    {
+      "id": "1134",
+      "domain": "133",
+      "range": "128"
+    },
+    {
+      "id": "1135",
+      "domain": "134",
+      "range": "128"
+    },
+    {
+      "id": "1136",
+      "domain": "135",
+      "range": "128"
+    },
+    {
+      "id": "1137",
+      "domain": "136",
+      "range": "66"
+    },
+    {
+      "id": "1138",
+      "domain": "137",
+      "range": "136"
+    },
+    {
+      "id": "1139",
+      "domain": "138",
+      "range": "18"
+    },
+    {
+      "id": "1140",
+      "domain": "139",
+      "range": "138"
+    },
+    {
+      "id": "1141",
+      "domain": "140",
+      "range": "138"
+    },
+    {
+      "id": "1142",
+      "domain": "141",
+      "range": "138"
+    },
+    {
+      "id": "1143",
+      "domain": "142",
+      "range": "138"
+    },
+    {
+      "id": "1144",
+      "domain": "18",
+      "range": "1"
+    },
+    {
+      "id": "1145",
+      "domain": "66",
+      "range": "18"
+    },
+    {
+      "id": "1146",
+      "domain": "80",
+      "range": "66"
+    },
+    {
+      "id": "1147",
+      "domain": "143",
+      "range": "80"
+    },
+    {
+      "id": "1148",
+      "domain": "111",
+      "range": "80"
+    },
+    {
+      "id": "1149",
+      "domain": "144",
+      "range": "111"
+    }
+  ]
+}

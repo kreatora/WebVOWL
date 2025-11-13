@@ -103,6 +103,9 @@ module.exports = function ( graphContainerSelector ){
   var rangeDragger = require("./rangeDragger")(graph);
   var domainDragger = require("./domainDragger")(graph);
   var shadowClone = require("./shadowClone")(graph);
+  // Tree layout state
+  var treeLayoutApplied = false;
+  var treeLayoutPositionsComputed = false;
   
   graph.math = function (){
     return math;
@@ -546,6 +549,23 @@ module.exports = function ( graphContainerSelector ){
   }
   
   function recalculatePositions(){
+    // Tree layout override: compute once and apply fixed positions when enabled
+    if (options.treeLayoutEnabled && options.treeLayoutEnabled()) {
+      if (!treeLayoutPositionsComputed) {
+        computeAndApplyTreeLayoutPositions();
+      }
+      treeLayoutApplied = true;
+    } else if (treeLayoutApplied) {
+      // release nodes if tree layout was previously active
+      if (classNodes) {
+        classNodes.forEach(function (n) {
+          n.frozen(paused); // respect paused state
+          n.locked(paused);
+        });
+      }
+      treeLayoutApplied = false;
+      treeLayoutPositionsComputed = false;
+    }
     // Set node positions
     
     
@@ -687,6 +707,121 @@ module.exports = function ( graphContainerSelector ){
     }
     
     updateHaloRadius();
+  }
+
+  // Computes depth by rdfs:subClassOf and assigns fixed x/y for each level
+  function computeAndApplyTreeLayoutPositions() {
+    if (!classNodes || !properties) {
+      return;
+    }
+    // Build parent -> children map using rdfs:subClassOf
+    var childrenMap = {};
+    var incomingCount = {};
+    classNodes.forEach(function (node) {
+      childrenMap[node.id ? node.id() : node] = [];
+      incomingCount[node.id ? node.id() : node] = 0;
+    });
+
+    properties.forEach(function (prop) {
+      if (elementTools.isRdfsSubClassOf(prop)) {
+        var child = prop.domain();
+        var parent = prop.range();
+        if (child && parent && child !== parent) {
+          var pKey = parent.id ? parent.id() : parent;
+          var cKey = child.id ? child.id() : child;
+          if (!childrenMap[pKey]) childrenMap[pKey] = [];
+          if (childrenMap[pKey].indexOf(child) === -1) {
+            childrenMap[pKey].push(child);
+          }
+          if (incomingCount[cKey] === undefined) incomingCount[cKey] = 0;
+          incomingCount[cKey] = incomingCount[cKey] + 1;
+        }
+      }
+    });
+
+    // Identify roots (no incoming subclass edge). Prefer owl:Thing first if present
+    var roots = [];
+    classNodes.forEach(function (node) {
+      // ignore datatypes
+      if (elementTools.isDatatype(node)) return;
+      var key = node.id ? node.id() : node;
+      if (!incomingCount[key] || incomingCount[key] === 0) {
+        roots.push(node);
+      }
+    });
+    // Ensure owl:Thing as first root when present
+    var thingRoot = undefined;
+    classNodes.forEach(function (n) { if (elementTools.isThing(n)) { thingRoot = n; } });
+    if (thingRoot) {
+      var idx = roots.indexOf(thingRoot);
+      if (idx !== -1) {
+        roots.splice(idx, 1);
+      }
+      roots.unshift(thingRoot);
+    }
+    if (roots.length === 0) {
+      // fallback: use any node
+      roots = classNodes.filter(function (n) { return !elementTools.isDatatype(n); });
+    }
+
+    // BFS to assign depths
+    var depthMap = {};
+    var queue = [];
+    roots.forEach(function (r) {
+      var k = r.id ? r.id() : r;
+      depthMap[k] = 0;
+      queue.push(r);
+    });
+    var visited = [];
+    while (queue.length) {
+      var n = queue.shift();
+      var nk = n.id ? n.id() : n;
+      visited.push(n);
+      var children = childrenMap[nk] || [];
+      children.forEach(function (c) {
+        var ck = c.id ? c.id() : c;
+        if (depthMap[ck] === undefined) {
+          depthMap[ck] = (depthMap[nk] || 0) + 1;
+          queue.push(c);
+        }
+      });
+    }
+    // Unreached nodes (isolated) -> depth 0
+    classNodes.forEach(function (n) {
+      var k = n.id ? n.id() : n;
+      if (depthMap[k] === undefined) depthMap[k] = 0;
+    });
+
+    // Group by depth
+    var levels = {};
+    classNodes.forEach(function (n) {
+      if (elementTools.isDatatype(n)) return;
+      var k = n.id ? n.id() : n;
+      var d = depthMap[k] || 0;
+      if (!levels[d]) levels[d] = [];
+      levels[d].push(n);
+    });
+
+    // Compute positions per level
+    var margin = 40;
+    var w = options.width();
+    var levelSpacing = Math.max(90, options.classDistance() * 0.6);
+    Object.keys(levels).forEach(function (dStr) {
+      var d = +dStr;
+      var nodesOnLevel = levels[d];
+      var count = nodesOnLevel.length;
+      if (count === 0) return;
+      for (var i = 0; i < count; i++) {
+        var node = nodesOnLevel[i];
+        var x = margin + (i + 0.5) * ((w - 2 * margin) / count);
+        var y = margin + d * levelSpacing;
+        node.x = x; node.y = y; node.px = x; node.py = y;
+        node.frozen(true);
+        node.locked(true);
+      }
+    });
+
+    treeLayoutPositionsComputed = true;
   }
   
   graph.updatePropertyDraggerElements = function ( property ){

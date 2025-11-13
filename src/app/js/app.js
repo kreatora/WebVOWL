@@ -45,6 +45,8 @@ module.exports = function (){
     statistics = webvowl.modules.statistics(),
     subclassFilter = webvowl.modules.subclassFilter(),
     setOperatorFilter = webvowl.modules.setOperatorFilter();
+    // Tree layout switch
+    treeLayoutSwitch = webvowl.modules.treeLayoutSwitch(graph);
   
   
   app.getOptions = function (){
@@ -203,13 +205,14 @@ module.exports = function (){
     options.filterModules().push(nodeScalingSwitch);
     options.filterModules().push(compactNotationSwitch);
     options.filterModules().push(colorExternalsSwitch);
+    options.filterModules().push(treeLayoutSwitch);
     
     d3.select(window).on("resize", adjustSize);
     
     exportMenu.setup();
     gravityMenu.setup();
     filterMenu.setup(datatypeFilter, objectPropertyFilter, subclassFilter, disjointFilter, setOperatorFilter, nodeDegreeFilter);
-    modeMenu.setup(pickAndPin, nodeScalingSwitch, compactNotationSwitch, colorExternalsSwitch);
+    modeMenu.setup(pickAndPin, nodeScalingSwitch, compactNotationSwitch, colorExternalsSwitch, treeLayoutSwitch);
     pauseMenu.setup();
     sidebar.setup();
     loadingModule.setup();

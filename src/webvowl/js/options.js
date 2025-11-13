@@ -59,6 +59,8 @@ module.exports = function (){
     hideDebugOptions = true,
     nodeDegreeFilter,
     debugMenu,
+    // layout modes
+    treeLayoutEnabled = false,
     
     supportedDatatypes = ["rdfs:Literal", "xsd:boolean", "xsd:double", "xsd:integer", "xsd:string", "undefined"],
     supportedClasses = ["owl:Thing", "owl:Class", "owl:DeprecatedClass"],
@@ -501,6 +503,13 @@ module.exports = function (){
     
     if ( !arguments.length ) return compactNotation;
     compactNotation = p;
+    return options;
+  };
+
+  // tree layout toggle
+  options.treeLayoutEnabled = function ( p ){
+    if ( !arguments.length ) return treeLayoutEnabled;
+    treeLayoutEnabled = p;
     return options;
   };
   
